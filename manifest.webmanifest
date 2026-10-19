@@ -1,0 +1,37 @@
+{
+  "name": "明天穿什么",
+  "short_name": "明天穿什么",
+  "description": "拍下自己的衣服，结合天气和场合，每天推荐一套出门穿搭。照片只存在本机，不上传。",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "id": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FBF8F4",
+  "theme_color": "#C2543C",
+  "categories": ["lifestyle", "shopping"],
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "明天的穿搭",
+      "short_name": "明天",
+      "url": "./index.html",
+      "description": "直接看明天穿什么"
+    }
+  ]
+}

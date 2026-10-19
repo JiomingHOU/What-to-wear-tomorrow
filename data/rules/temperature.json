@@ -1,0 +1,117 @@
+{
+  "文件说明": "温度 → 厚薄档位映射。改这里的数字就能调整推荐规则，不需要改代码。",
+  "version": 1,
+  "updated": "2026-10-19",
+  "温度口径": "用明日 (最高温 + 最低温) / 2 作为判断依据，单位为摄氏度。",
+  "levels": [
+    {
+      "name": "薄夏装",
+      "index": 1,
+      "desc": "短袖、薄衬衫、薄裙、凉鞋、薄长裤",
+      "examples": "短袖T恤 / 薄衬衫 / 薄连衣裙 / 短裤 / 凉鞋"
+    },
+    {
+      "name": "春秋常规",
+      "index": 2,
+      "desc": "长袖T、薄卫衣、薄外套、长裤",
+      "examples": "长袖T恤 / 薄衬衫+薄外套 / 牛仔裤 / 单鞋"
+    },
+    {
+      "name": "厚针织",
+      "index": 3,
+      "desc": "厚卫衣、毛衣、针织开衫、夹克、厚裤",
+      "examples": "卫衣 / 毛衣 / 针织开衫 / 夹克 / 加厚长裤 / 短靴"
+    },
+    {
+      "name": "厚外套",
+      "index": 4,
+      "desc": "呢大衣、风衣加厚、厚夹克、加绒裤",
+      "examples": "呢大衣 / 风衣 / 厚夹克 / 加绒裤 / 长靴"
+    },
+    {
+      "name": "棉服羽绒",
+      "index": 5,
+      "desc": "棉服、羽绒服、加厚冲锋衣",
+      "examples": "羽绒服 / 棉服 / 加厚冲锋衣 / 雪地靴 / 围巾手套"
+    }
+  ],
+  "bands": [
+    {
+      "id": "very_hot",
+      "label": "炎热",
+      "temp_min": 28,
+      "temp_max": 99,
+      "levels": [1],
+      "outerwear": "none",
+      "advice": "短袖 + 薄短裤/裙，选透气面料，注意防晒",
+      "tip": "这么热，外套基本用不上"
+    },
+    {
+      "id": "hot",
+      "label": "热",
+      "temp_min": 22,
+      "temp_max": 28,
+      "levels": [1, 2],
+      "outerwear": "optional",
+      "advice": "短袖或薄长袖 + 薄外套备用",
+      "tip": "早晚温差注意，可以带一件薄外套"
+    },
+    {
+      "id": "mild",
+      "label": "舒适",
+      "temp_min": 15,
+      "temp_max": 22,
+      "levels": [2, 3],
+      "outerwear": "optional",
+      "advice": "卫衣 / 针织 / 薄外套最合适",
+      "tip": "最舒服的天气，长袖加一件薄外套刚刚好"
+    },
+    {
+      "id": "cool",
+      "label": "凉",
+      "temp_min": 8,
+      "temp_max": 15,
+      "levels": [3, 4],
+      "outerwear": "recommend",
+      "advice": "毛衣 + 夹克或风衣，裤子别太薄",
+      "tip": "有点凉，建议加外套"
+    },
+    {
+      "id": "cold",
+      "label": "冷",
+      "temp_min": 0,
+      "temp_max": 8,
+      "levels": [4, 5],
+      "outerwear": "required",
+      "advice": "棉服 / 羽绒 + 毛衣，注意保暖",
+      "tip": "天冷，外套一定要厚"
+    },
+    {
+      "id": "freezing",
+      "label": "严寒",
+      "temp_min": -99,
+      "temp_max": 0,
+      "levels": [5],
+      "outerwear": "required",
+      "advice": "厚羽绒 + 叠穿，围巾手套别忘",
+      "tip": "低于 0℃，务必厚羽绒加叠穿"
+    }
+  ],
+  "scores": {
+    "level_first": 10,
+    "level_second": 4,
+    "outerwear_needed_bonus": 6,
+    "outerwear_missing_penalty": -12,
+    "outerwear_not_needed_penalty": -6
+  },
+  "outerwear_categories": ["外套"],
+
+  "level_tolerance": {
+    "鞋": 1,
+    "帽子": 2,
+    "配饰": 2
+  },
+  "说明_宽容度": "上衣/裤装/裙装/连体装/外套严格按温度档位筛；鞋、帽子、配饰放宽 ±N 档。原因：一双薄款运动鞋春秋冬都能穿，如果严格按档位筛，20℃ 想运动时会因为『运动鞋是薄夏装』而凑不齐一套。这个数字越大越宽松。",
+  "说明_评分": "level_first 表示衣物档位正好是本温度区间的首选项，得分最高。",
+  "说明_改法": "想让某个品类也放宽，在 level_tolerance 里加一行，例如 \"外套\": 1。"
+}

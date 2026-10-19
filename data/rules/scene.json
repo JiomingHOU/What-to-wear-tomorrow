@@ -1,0 +1,138 @@
+{
+  "文件说明": "场景 → 品类与风格约束。改这里的分值就能调整各场景的推荐倾向，不需要改代码。",
+  "version": 2,
+  "updated": "2026-10-19",
+  "default_scores": {
+    "prefer_style": 8,
+    "soft_ban_style": -10,
+    "prefer_category": 3,
+    "scene_tag_bonus": 6
+  },
+  "required_slots": ["上衣", "下装", "鞋"],
+  "slot_map": {
+    "上衣": ["上衣", "连体装"],
+    "下装": ["裤装", "裙装", "连体装"],
+    "鞋": ["鞋"],
+    "外套": ["外套"],
+    "配饰": ["配饰", "帽子"]
+  },
+  "missing_hint_说明": "衣橱凑不齐时给用户看的「缺什么」，按槽位分开写，越具体越好。",
+  "scenes": {
+    "通勤": {
+      "label": "通勤",
+      "emoji": "💼",
+      "hard_ban_styles": ["运动"],
+      "soft_ban_styles": ["街头"],
+      "prefer_styles": ["通勤", "商务", "极简"],
+      "prefer_categories": ["外套"],
+      "outerwear": "auto",
+      "advice": "偏正式、不露肤，避免运动拖鞋",
+      "missing_hint": {
+        "top": "一件有领的上衣或衬衫",
+        "bottom": "深色长裤或半身裙",
+        "shoes": "通勤能穿的单鞋或皮鞋"
+      }
+    },
+    "约会": {
+      "label": "约会",
+      "emoji": "💗",
+      "hard_ban_styles": [],
+      "soft_ban_styles": ["商务"],
+      "prefer_styles": ["极简", "度假", "学院"],
+      "prefer_categories": [],
+      "outerwear": "auto",
+      "advice": "风格统一优先，颜色不要太杂",
+      "missing_hint": {
+        "top": "一件有点设计感的上衣",
+        "bottom": "半身裙或好看的裤装",
+        "shoes": "一双干净的鞋"
+      }
+    },
+    "运动": {
+      "label": "运动",
+      "emoji": "🏃",
+      "hard_ban_styles": ["商务"],
+      "soft_ban_styles": ["通勤"],
+      "prefer_styles": ["运动"],
+      "prefer_categories": ["鞋"],
+      "outerwear": "auto",
+      "advice": "运动套装、运动鞋优先",
+      "missing_hint": {
+        "top": "速干透气的运动上衣",
+        "bottom": "运动裤或运动短裤",
+        "shoes": "一双运动鞋"
+      }
+    },
+    "商务": {
+      "label": "商务",
+      "emoji": "🤝",
+      "hard_ban_styles": ["运动", "街头"],
+      "soft_ban_styles": [],
+      "prefer_styles": ["商务", "通勤", "极简"],
+      "prefer_categories": ["外套"],
+      "outerwear": "auto",
+      "advice": "西装或正式外套，颜色保守",
+      "missing_hint": {
+        "top": "衬衫或有领上衣",
+        "bottom": "正装长裤或西装裤",
+        "shoes": "皮鞋或正式单鞋"
+      }
+    },
+    "休闲": {
+      "label": "休闲",
+      "emoji": "☕",
+      "hard_ban_styles": [],
+      "soft_ban_styles": ["商务"],
+      "prefer_styles": ["街头", "运动", "学院"],
+      "prefer_categories": [],
+      "outerwear": "auto",
+      "advice": "怎么舒服怎么穿",
+      "missing_hint": {
+        "top": "一件舒服的T恤或卫衣",
+        "bottom": "一条百搭的休闲裤",
+        "shoes": "一双好走路的鞋"
+      }
+    },
+    "度假": {
+      "label": "度假",
+      "emoji": "🏖️",
+      "hard_ban_styles": ["商务"],
+      "soft_ban_styles": ["通勤"],
+      "prefer_styles": ["度假", "学院"],
+      "prefer_categories": [],
+      "outerwear": "auto",
+      "advice": "轻薄、有度假感，颜色可以亮一点",
+      "missing_hint": {
+        "top": "轻薄透气的上衣",
+        "bottom": "轻薄长裤或长裙",
+        "shoes": "凉鞋或轻便的鞋"
+      }
+    },
+    "校园": {
+      "label": "校园",
+      "emoji": "🎒",
+      "hard_ban_styles": ["商务"],
+      "soft_ban_styles": [],
+      "prefer_styles": ["学院", "休闲", "街头"],
+      "prefer_categories": ["鞋"],
+      "outerwear": "auto",
+      "advice": "学院风、休闲风都合适，好走路最重要",
+      "missing_hint": {
+        "top": "学院风上衣或卫衣",
+        "bottom": "牛仔裤或休闲裤",
+        "shoes": "好走的运动鞋"
+      }
+    }
+  },
+  "场景别名": {
+    "职场": "通勤",
+    "上班": "通勤",
+    "户外": "休闲",
+    "街头": "休闲",
+    "街拍": "休闲",
+    "逛街": "休闲",
+    "日常": "休闲",
+    "聚会": "约会",
+    "上课": "校园"
+  }
+}

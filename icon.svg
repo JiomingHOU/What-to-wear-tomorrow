@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="明天穿什么">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#D0644A"/>
+      <stop offset="0.55" stop-color="#C2543C"/>
+      <stop offset="1" stop-color="#8F3A28"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 圆角底 -->
+  <rect width="512" height="512" rx="112" fill="url(#g)"/>
+
+  <!-- 衣架：挂钩 -->
+  <path d="M256 178v-16a30 30 0 1 1 30-30"
+        fill="none" stroke="#FFF6EE" stroke-width="20"
+        stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 衣架：三角身体 -->
+  <path d="M256 186 152 268a18 18 0 0 0 11 32h186a18 18 0 0 0 11-32Z"
+        fill="none" stroke="#FFF6EE" stroke-width="20"
+        stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 衣架横杆 -->
+  <path d="M196 358h120" fill="none" stroke="#FFF6EE" stroke-width="20" stroke-linecap="round"/>
+</svg>

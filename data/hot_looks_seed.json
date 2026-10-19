@@ -1,0 +1,756 @@
+[
+  {
+    "look_id": "W26AW-01",
+    "gender": "女",
+    "season": "2026秋冬",
+    "style_theme": "正红点亮",
+    "items_desc": "正红毛衣（或正红围巾做点睛单品）+ 黑色A字裙 / 深色外套",
+    "colors": "正红 × 黑",
+    "temp_min": 5,
+    "temp_max": 15,
+    "scene": [
+      "通勤",
+      "约会"
+    ],
+    "source": "义乌商报 2026-01；淘宝服装网配毛衣",
+    "source_url": "https://szb1.ywcity.cn/att/202601/26/d612dded-2db5-4d0e-a1ba-3693e66f0eae.pdf"
+  },
+  {
+    "look_id": "W26AW-02",
+    "gender": "女",
+    "season": "2026秋冬",
+    "style_theme": "米白暖调",
+    "items_desc": "米白/米黄双面羊绒大衣 + 同色系内搭 + 乐福鞋（或马丁靴切换酷感）",
+    "colors": "米白 × 米黄",
+    "temp_min": 5,
+    "temp_max": 15,
+    "scene": [
+      "通勤"
+    ],
+    "source": "义乌商报 2026-01；淘宝服装网双面羊毛绒",
+    "source_url": "https://szb1.ywcity.cn/att/202601/26/d612dded-2db5-4d0e-a1ba-3693e66f0eae.pdf"
+  },
+  {
+    "look_id": "W26AW-03",
+    "gender": "女",
+    "season": "2026秋冬",
+    "style_theme": "深蓝 × 巧克力",
+    "items_desc": "深蓝大衣/西装 + 巧克力色或奶白内搭 + 卡其裤，勃艮第/粉红小面积点缀",
+    "colors": "深蓝 × 巧克力 × 奶白",
+    "temp_min": 5,
+    "temp_max": 15,
+    "scene": [
+      "通勤",
+      "商务"
+    ],
+    "source": "РИА Новости 2026-09",
+    "source_url": "https://ria.ru/moda/modnye-cveta-v-odezhde-osen-2026/"
+  },
+  {
+    "look_id": "W26AW-04",
+    "gender": "女",
+    "season": "2026秋冬",
+    "style_theme": "卫衣 × 半裙（娘man平衡）",
+    "items_desc": "连帽阔版卫衣 + 花苞裙/波点裙/蕾丝裙 + 运动鞋或长靴",
+    "colors": "卫衣主色 × 裙色",
+    "temp_min": 12,
+    "temp_max": 22,
+    "scene": [
+      "休闲",
+      "约会"
+    ],
+    "source": "抖音 2026-08（卫衣穿搭公式）",
+    "source_url": "https://www.iesdouyin.com/share/video/7673844854636826469"
+  },
+  {
+    "look_id": "W26AW-05",
+    "gender": "女",
+    "season": "2026秋冬",
+    "style_theme": "美式街头撞色",
+    "items_desc": "高饱和红/黄/绿撞色上衣 + 干净裤装鞋履；身上不超过4色，内搭/帽子/鞋子与上衣色系呼应",
+    "colors": "红×白×蓝、黄×蓝×黑等",
+    "temp_min": 15,
+    "temp_max": 24,
+    "scene": [
+      "休闲",
+      "街头"
+    ],
+    "source": "抖音 2026-08（美式街头）",
+    "source_url": "https://www.iesdouyin.com/share/video/7675672997214063913"
+  },
+  {
+    "look_id": "W26AW-06",
+    "gender": "女",
+    "season": "2026秋冬",
+    "style_theme": "静奢 × 智性极简",
+    "items_desc": "黑色双排扣斗式短大衣 / 米白高领针织斗篷 + 同色系针织裙 + 黑色长筒靴",
+    "colors": "黑、灰、棕等高级中性色",
+    "temp_min": 5,
+    "temp_max": 12,
+    "scene": [
+      "通勤",
+      "约会"
+    ],
+    "source": "抖音 2026-09（静奢老钱×智性极简）",
+    "source_url": "https://www.iesdouyin.com/share/video/7688629213741807231"
+  },
+  {
+    "look_id": "W26AW-07",
+    "gender": "女",
+    "season": "2026秋冬",
+    "style_theme": "超大箱型西装（智性通勤）",
+    "items_desc": "超大宽肩箱型西装 + 阔腿裤 / 直筒长裙",
+    "colors": "黑、灰、米",
+    "temp_min": 12,
+    "temp_max": 20,
+    "scene": [
+      "职场"
+    ],
+    "source": "抖音 2026-06（2026-27秋冬趋势）",
+    "source_url": "https://www.iesdouyin.com/share/video/7654089286618979508"
+  },
+  {
+    "look_id": "W26AW-08",
+    "gender": "女",
+    "season": "2026秋冬",
+    "style_theme": "风衣叠穿",
+    "items_desc": "风衣/长大衣 + 粗针织内搭（系带或敞开）",
+    "colors": "卡其、米、黑",
+    "temp_min": 10,
+    "temp_max": 18,
+    "scene": [
+      "通勤"
+    ],
+    "source": "NET-A-PORTER 2026-08",
+    "source_url": "https://www.net-a-porter.com/en-ca/porter/article-11e7152fe34bb960"
+  },
+  {
+    "look_id": "W26AW-09",
+    "gender": "女",
+    "season": "2026秋冬",
+    "style_theme": "瑜伽服外穿（Athflow）",
+    "items_desc": "修身瑜伽服套装（裸粉等）单穿或叠穿长袖外套",
+    "colors": "裸粉、灰",
+    "temp_min": 15,
+    "temp_max": 24,
+    "scene": [
+      "运动",
+      "休闲"
+    ],
+    "source": "淘宝服装网秋冬氛围",
+    "source_url": "https://clothing.taobao.com/topic/zhuanti/%E7%A7%8B%E5%86%AC%E6%B0%9B%E5%9B%B4/list-1"
+  },
+  {
+    "look_id": "W26SS-01",
+    "gender": "女",
+    "season": "2026春夏",
+    "style_theme": "盐系海蓝",
+    "items_desc": "淡蓝色系衬衫/连衣裙 + 白色/米色下装，带户外机能细节",
+    "colors": "淡蓝 × 白",
+    "temp_min": 22,
+    "temp_max": 30,
+    "scene": [
+      "度假",
+      "通勤"
+    ],
+    "source": "光明网 2026-03",
+    "source_url": "http://m.toutiao.com/group/7621081308533408310/"
+  },
+  {
+    "look_id": "W26SS-02",
+    "gender": "女",
+    "season": "2026春夏",
+    "style_theme": "复古摩登红",
+    "items_desc": "红色系单品 + 奶油色/深宝蓝/大地色辅色",
+    "colors": "红 × 奶油 × 深宝蓝",
+    "temp_min": 22,
+    "temp_max": 30,
+    "scene": [
+      "约会",
+      "休闲"
+    ],
+    "source": "光明网 2026-03",
+    "source_url": "http://m.toutiao.com/group/7621081308533408310/"
+  },
+  {
+    "look_id": "W26SS-03",
+    "gender": "女",
+    "season": "2026春夏",
+    "style_theme": "芭蕾风 2.0",
+    "items_desc": "粉/浅色裙装 + 堆堆袜 + 芭蕾鞋/玛丽珍鞋，甜酷带棱角",
+    "colors": "粉、米白、黑",
+    "temp_min": 20,
+    "temp_max": 28,
+    "scene": [
+      "约会",
+      "休闲"
+    ],
+    "source": "央视网 2026-04",
+    "source_url": "http://big5.cctv.com/gate/big5/style.cctv.com/2026/04/27/ARTIe8S1EAQuBcSZqBAhnB4X260427.shtml"
+  },
+  {
+    "look_id": "W26SS-04",
+    "gender": "女",
+    "season": "2026春夏",
+    "style_theme": "叛逆学院风",
+    "items_desc": "低腰迷你裙/短上衣 + 歪领带 + 运动鞋，可混搭运动/度假风",
+    "colors": "学院色 × 亮色",
+    "temp_min": 20,
+    "temp_max": 28,
+    "scene": [
+      "校园",
+      "休闲"
+    ],
+    "source": "新华网 2026-02",
+    "source_url": "http://www.news.cn/fashion/20260205/1fc71cbde1fe46e9995461495563a031/c.html"
+  },
+  {
+    "look_id": "W26SS-05",
+    "gender": "女",
+    "season": "2026春夏",
+    "style_theme": "90s 极简回潮",
+    "items_desc": "卡普里裤 / 条纹上衣 / 牛仔单品 + 乐福鞋或人字拖",
+    "colors": "黑白、牛仔蓝",
+    "temp_min": 24,
+    "temp_max": 32,
+    "scene": [
+      "休闲",
+      "通勤"
+    ],
+    "source": "时尚COSMO 2026-09",
+    "source_url": "https://www.cosmopolitancn.com/cosmo/fashion/detail/51263"
+  },
+  {
+    "look_id": "W26SS-06",
+    "gender": "女",
+    "season": "2026春夏",
+    "style_theme": "Boho 复兴（软硬结合）",
+    "items_desc": "浪漫蛋糕裙/荷叶边衬衫 + 西装/皮靴 + 彩色牛仔裤",
+    "colors": "大地色 + 亮色点缀",
+    "temp_min": 22,
+    "temp_max": 30,
+    "scene": [
+      "约会",
+      "度假"
+    ],
+    "source": "抖音 2026-08（夏秋趋势盘点）",
+    "source_url": "https://www.iesdouyin.com/share/video/7676041432402952561"
+  },
+  {
+    "look_id": "W26SS-07",
+    "gender": "女",
+    "season": "2026春夏",
+    "style_theme": "Y2K 极简",
+    "items_desc": "修身短上衣 + 低腰裤 + 金属感配饰",
+    "colors": "黑白银",
+    "temp_min": 24,
+    "temp_max": 32,
+    "scene": [
+      "街头"
+    ],
+    "source": "抖音 2026-08（夏秋趋势盘点）",
+    "source_url": "https://www.iesdouyin.com/share/video/7676041432402952561"
+  },
+  {
+    "look_id": "W25AW-01",
+    "gender": "女",
+    "season": "2025秋冬",
+    "style_theme": "悬垂大衣",
+    "items_desc": "斯堪的纳维亚式垂坠大衣（领口褶皱/围裹设计）+ 简约内搭 + 直筒裤",
+    "colors": "驼、灰、米",
+    "temp_min": 5,
+    "temp_max": 12,
+    "scene": [
+      "通勤"
+    ],
+    "source": "潮州日报 2025-09",
+    "source_url": "https://www.chaozhoudaily.com/upload/attachment/202509/25/620fc274-ca36-4ade-95b8-e4675ef850f0.pdf"
+  },
+  {
+    "look_id": "W25AW-02",
+    "gender": "女",
+    "season": "2025秋冬",
+    "style_theme": "琥珀流光",
+    "items_desc": "大地色/棕色系毛衣大衣裤装 + 琥珀光泽/细闪小面积点缀",
+    "colors": "棕、琥珀、大地色",
+    "temp_min": 5,
+    "temp_max": 15,
+    "scene": [
+      "通勤",
+      "约会"
+    ],
+    "source": "光明网 2025-09（WGSN×抖音）",
+    "source_url": "https://m.gmw.cn/toutiao/2025-09/11/content_38279679.htm"
+  },
+  {
+    "look_id": "W25AW-03",
+    "gender": "女",
+    "season": "2025秋冬",
+    "style_theme": "复古摩登",
+    "items_desc": "经典元素（格纹/千鸟格等）外套 + 现代内搭单品",
+    "colors": "格纹 × 中性色",
+    "temp_min": 8,
+    "temp_max": 15,
+    "scene": [
+      "休闲",
+      "约会"
+    ],
+    "source": "央视网 2025-12",
+    "source_url": "https://style.cctv.cn/2025/12/18/ARTIStf9HUpZzdRgx8gIIdTU251218.shtml"
+  },
+  {
+    "look_id": "W25AW-04",
+    "gender": "女",
+    "season": "2025秋冬",
+    "style_theme": "针织超大廓形",
+    "items_desc": "超大体积针织毛衣 + 轻薄内搭叠穿",
+    "colors": "低饱和大地色",
+    "temp_min": 8,
+    "temp_max": 15,
+    "scene": [
+      "休闲"
+    ],
+    "source": "新华网 2025-12",
+    "source_url": "https://style.cctv.cn/2025/12/18/ARTIStf9HUpZzdRgx8gIIdTU251218.shtml"
+  },
+  {
+    "look_id": "W25AW-05",
+    "gender": "女",
+    "season": "2025秋冬",
+    "style_theme": "排骨羽绒服 + 三明治穿法",
+    "items_desc": "窄格绗缝齐腰羽绒服（雾灰/燕麦）+ 内搭毛衣 + 围巾",
+    "colors": "雾灰、燕麦",
+    "temp_min": 0,
+    "temp_max": 8,
+    "scene": [
+      "通勤",
+      "户外"
+    ],
+    "source": "腾讯网 2025-11",
+    "source_url": "https://view.inews.qq.com/a/20251126A01LK700"
+  },
+  {
+    "look_id": "W25AW-06",
+    "gender": "女",
+    "season": "2025秋冬",
+    "style_theme": "皮革新势力",
+    "items_desc": "修身皮外套/皮裙 + 针织内搭，皮革配饰点睛",
+    "colors": "黑、棕、酒红",
+    "temp_min": 8,
+    "temp_max": 15,
+    "scene": [
+      "通勤",
+      "约会"
+    ],
+    "source": "新华网 2025-11",
+    "source_url": "http://www.news.cn/fashion/20251127/96093104651f486ca692a9031d20abdf/c.html"
+  },
+  {
+    "look_id": "W25SS-01",
+    "gender": "女",
+    "season": "2025春夏",
+    "style_theme": "帕斯蒂尔风 · 薄荷绿",
+    "items_desc": "薄荷绿衬衫/T恤 + 中性色（白/米/灰）下装",
+    "colors": "薄荷绿 × 中性色",
+    "temp_min": 22,
+    "temp_max": 30,
+    "scene": [
+      "休闲",
+      "通勤"
+    ],
+    "source": "央视网/羊城晚报 2025-07",
+    "source_url": "https://style.cctv.com/2025/07/31/ARTIat50n0DVMJjzV7VZqHTM250731.shtml"
+  },
+  {
+    "look_id": "W25SS-02",
+    "gender": "女",
+    "season": "2025春夏",
+    "style_theme": "初夏波嬉风",
+    "items_desc": "镂空针织/度假感单品 + 牛仔或长裙",
+    "colors": "白、米、浅蓝",
+    "temp_min": 22,
+    "temp_max": 30,
+    "scene": [
+      "度假"
+    ],
+    "source": "央视网 2025-06",
+    "source_url": "https://style.cctv.cn/2025/06/30/ARTIlN9VJKno1tMiSKNWKzxr250630.shtml"
+  },
+  {
+    "look_id": "W25SS-03",
+    "gender": "女",
+    "season": "2025春夏",
+    "style_theme": "2025 夏季流行色",
+    "items_desc": "青柠奶油 / 日光黄 / 帽贝蓝 / 柔雾紫 / 古董白等任意一色做主色",
+    "colors": "流行彩色",
+    "temp_min": 24,
+    "temp_max": 32,
+    "scene": [
+      "休闲",
+      "约会"
+    ],
+    "source": "光明网 2025-06（Pantone/WGSN）",
+    "source_url": "https://m.gmw.cn/2025-06/20/content_1304063948.htm"
+  },
+  {
+    "look_id": "W25SS-04",
+    "gender": "女",
+    "season": "2025春夏",
+    "style_theme": "薄荷曼波延续（多巴胺系）",
+    "items_desc": "薄荷曼波绿冰丝/正肩T恤 + 白色下装",
+    "colors": "薄荷绿 × 白",
+    "temp_min": 24,
+    "temp_max": 32,
+    "scene": [
+      "休闲"
+    ],
+    "source": "淘宝服装网多巴胺绿",
+    "source_url": "https://clothing.taobao.com/topic/zhuanti/%E5%A4%9A%E5%B7%B4%E8%83%BA%E7%BB%BF/"
+  },
+  {
+    "look_id": "M26AW-01",
+    "gender": "男",
+    "season": "2026秋冬",
+    "style_theme": "轻熟通勤风",
+    "items_desc": "夹克外套/休闲西装/针织开衫 + 直筒西裤；配皮质表带手表、简约公文包",
+    "colors": "绿、藏青、深棕、卡其、米白、浅蓝",
+    "temp_min": 8,
+    "temp_max": 18,
+    "scene": [
+      "通勤",
+      "约会"
+    ],
+    "source": "抖音 2026-10（秋冬男装6大风格）",
+    "source_url": "https://www.iesdouyin.com/share/video/7695632193872626788"
+  },
+  {
+    "look_id": "M26AW-02",
+    "gender": "男",
+    "season": "2026秋冬",
+    "style_theme": "静奢老钱风",
+    "items_desc": "羊绒/羊毛大衣 + 高领针织 + 直筒西裤 + 皮质乐福鞋",
+    "colors": "黑、灰、棕",
+    "temp_min": 5,
+    "temp_max": 12,
+    "scene": [
+      "商务",
+      "约会"
+    ],
+    "source": "抖音 2026-10（秋冬男装6大风格）",
+    "source_url": "https://www.iesdouyin.com/share/video/7695632193872626788"
+  },
+  {
+    "look_id": "M26AW-03",
+    "gender": "男",
+    "season": "2026秋冬",
+    "style_theme": "叠穿\"叠甲\"",
+    "items_desc": "西装 + 大衣/风衣/羽绒服外层叠穿，长短错落",
+    "colors": "黑、灰、藏青",
+    "temp_min": 0,
+    "temp_max": 10,
+    "scene": [
+      "通勤",
+      "商务"
+    ],
+    "source": "抖音 2026-03（秋冬男装周）",
+    "source_url": "https://www.iesdouyin.com/share/video/7618897301386426506"
+  },
+  {
+    "look_id": "M26AW-04",
+    "gender": "男",
+    "season": "2026秋冬",
+    "style_theme": "基础款配色公式",
+    "items_desc": "黑羽绒服+咖色裤+黑鞋；红毛衣+牛仔黑裤+白鞋；灰毛衣+军绿裤+黑鞋；深蓝羽绒+复古蓝裤+棕鞋",
+    "colors": "黑白灰 + 一处亮色",
+    "temp_min": 0,
+    "temp_max": 8,
+    "scene": [
+      "通勤",
+      "休闲"
+    ],
+    "source": "抖音 2026-01（秋冬基础款）",
+    "source_url": "https://www.iesdouyin.com/share/video/7594068063328388453"
+  },
+  {
+    "look_id": "M26AW-05",
+    "gender": "男",
+    "season": "2026秋冬",
+    "style_theme": "Cleanfit 立领棉服",
+    "items_desc": "纯黑立领棉服 + 直筒裤 + 小白鞋",
+    "colors": "纯黑 × 白",
+    "temp_min": 5,
+    "temp_max": 12,
+    "scene": [
+      "街头",
+      "休闲"
+    ],
+    "source": "淘宝服装网男装痞帅",
+    "source_url": "https://clothing.taobao.com/topic/zhuanti/%E7%94%B7%E8%A3%85%E7%97%9E%E5%B8%85/"
+  },
+  {
+    "look_id": "M26AW-06",
+    "gender": "男",
+    "season": "2026秋冬",
+    "style_theme": "商务短款羽绒服",
+    "items_desc": "军绿×黑×黄短款羽绒服，内搭毛衣/衬衫/羊绒围巾",
+    "colors": "军绿、黑、黄",
+    "temp_min": 0,
+    "temp_max": 8,
+    "scene": [
+      "通勤",
+      "商务"
+    ],
+    "source": "淘宝服装网男羽绒服",
+    "source_url": "https://clothing.taobao.com/topic/zhuanti/%E7%94%B7%E7%BE%BD%E7%BB%92%E6%9C%8D/"
+  },
+  {
+    "look_id": "M26SS-01",
+    "gender": "男",
+    "season": "2026春夏",
+    "style_theme": "Clubhouse Preppy 学院风",
+    "items_desc": "Polo衫 / 牛津衬衫 + 卡其裤 + 乐福鞋",
+    "colors": "白、蓝、卡其",
+    "temp_min": 20,
+    "temp_max": 28,
+    "scene": [
+      "校园",
+      "约会"
+    ],
+    "source": "Breuninger 2026-10",
+    "source_url": "https://www.breuninger.com/ch/editorial/mode/modetrends-maennermode-fruehling-sommer/"
+  },
+  {
+    "look_id": "M26SS-02",
+    "gender": "男",
+    "season": "2026春夏",
+    "style_theme": "Dynamic Tailoring 动感西装",
+    "items_desc": "加长款西装外套 + 柔和线条西裤 + 丝棉针织内搭",
+    "colors": "黑、灰、米",
+    "temp_min": 20,
+    "temp_max": 28,
+    "scene": [
+      "商务",
+      "通勤"
+    ],
+    "source": "SHOWstudio SS26",
+    "source_url": "https://www.showstudio.com/cms/documents/4081/BC_-_Mens_Collection_Spring-Summer_2026_1.pdf"
+  },
+  {
+    "look_id": "M26SS-03",
+    "gender": "男",
+    "season": "2026春夏",
+    "style_theme": "美式高街褶皱T恤",
+    "items_desc": "解构圆领T恤（黑/白/灰，正肩剪裁）+ 工装裤/直筒裤",
+    "colors": "黑、白、灰",
+    "temp_min": 24,
+    "temp_max": 32,
+    "scene": [
+      "街头"
+    ],
+    "source": "淘宝服装网男装高街",
+    "source_url": "https://clothing.taobao.com/topic/zhuanti/%E7%94%B7%E8%A3%85%E9%AB%98%E8%A1%97/list-1"
+  },
+  {
+    "look_id": "M26SS-04",
+    "gender": "男",
+    "season": "2026春夏",
+    "style_theme": "少年感撞色针织",
+    "items_desc": "几何撞色圆领针织（黑/浅灰/卡其）+ 休闲裤",
+    "colors": "撞色 × 基础色",
+    "temp_min": 18,
+    "temp_max": 26,
+    "scene": [
+      "校园",
+      "休闲"
+    ],
+    "source": "淘宝服装网少年感",
+    "source_url": "https://clothing.taobao.com/topic/zhuanti/%E5%B0%91%E5%B9%B4%E6%84%9F%E7%A9%BF%E6%90%AD/"
+  },
+  {
+    "look_id": "M26SS-05",
+    "gender": "男",
+    "season": "2026春夏",
+    "style_theme": "中性风（男女同款）",
+    "items_desc": "宽松衬衫/直筒裤的无性别穿搭",
+    "colors": "中性色",
+    "temp_min": 22,
+    "temp_max": 30,
+    "scene": [
+      "休闲"
+    ],
+    "source": "抖音 2026-01（中性风穿搭）",
+    "source_url": "https://www.iesdouyin.com/share/video/7595575354593507941"
+  },
+  {
+    "look_id": "M25AW-01",
+    "gender": "男",
+    "season": "2025秋冬",
+    "style_theme": "西装\"风格试验场\"",
+    "items_desc": "经典西装 + 设计感细节（可外搭大衣）",
+    "colors": "黑、灰、藏青",
+    "temp_min": 8,
+    "temp_max": 15,
+    "scene": [
+      "商务"
+    ],
+    "source": "腾讯网 2025-11（男装周）",
+    "source_url": "https://www.iesdouyin.com/share/video/7618897301386426506"
+  },
+  {
+    "look_id": "M25AW-02",
+    "gender": "男",
+    "season": "2025秋冬",
+    "style_theme": "柔和色彩男装",
+    "items_desc": "淡雅天蓝/粉红/稻草黄/薄荷绿毛衣或针织 + 中性下装",
+    "colors": "柔和彩色",
+    "temp_min": 8,
+    "temp_max": 15,
+    "scene": [
+      "休闲",
+      "约会"
+    ],
+    "source": "中国日报网 2025-11",
+    "source_url": "https://caijing.chinadaily.com.cn/a/202511/11/WS6913079ca310ceca48b7c3e2.html"
+  },
+  {
+    "look_id": "M25AW-03",
+    "gender": "男",
+    "season": "2025秋冬",
+    "style_theme": "复古休闲风",
+    "items_desc": "灯芯绒裤 + 贝雷帽 + 工装外套",
+    "colors": "棕、卡其、复古蓝",
+    "temp_min": 8,
+    "temp_max": 18,
+    "scene": [
+      "休闲",
+      "街头"
+    ],
+    "source": "淘宝服装网2025男装趋势",
+    "source_url": "https://clothing.taobao.com/topic/fuzhuangpinpai_568/d18d21c0b4d2b30ce5b2c095445e735a.html"
+  },
+  {
+    "look_id": "M25AW-04",
+    "gender": "男",
+    "season": "2025秋冬",
+    "style_theme": "机能风",
+    "items_desc": "多口袋工装外套/马甲 + 工装裤 + 机能鞋",
+    "colors": "军绿、黑、灰",
+    "temp_min": 10,
+    "temp_max": 18,
+    "scene": [
+      "户外",
+      "街头"
+    ],
+    "source": "淘宝服装网2025男装趋势",
+    "source_url": "https://clothing.taobao.com/topic/fuzhuangpinpai_568/d18d21c0b4d2b30ce5b2c095445e735a.html"
+  },
+  {
+    "look_id": "M25AW-05",
+    "gender": "男",
+    "season": "2025秋冬",
+    "style_theme": "简约商务",
+    "items_desc": "干净利落剪裁西装/大衣 + 中性色调",
+    "colors": "灰、藏青、米",
+    "temp_min": 5,
+    "temp_max": 12,
+    "scene": [
+      "职场"
+    ],
+    "source": "淘宝服装网2025男装趋势",
+    "source_url": "https://clothing.taobao.com/topic/fuzhuangpinpai_568/d18d21c0b4d2b30ce5b2c095445e735a.html"
+  },
+  {
+    "look_id": "M25AW-06",
+    "gender": "男",
+    "season": "2025秋冬",
+    "style_theme": "松弛廓形（Oversized）",
+    "items_desc": "阔腿裤 + 大版型衬衫 + 工作装（workwear）单品",
+    "colors": "大地色、蓝",
+    "temp_min": 15,
+    "temp_max": 22,
+    "scene": [
+      "休闲"
+    ],
+    "source": "Men's Weekly 2025",
+    "source_url": "https://men.com.au/style?start=9"
+  },
+  {
+    "look_id": "M25SS-01",
+    "gender": "男",
+    "season": "2025春夏",
+    "style_theme": "松弛剪裁（Relaxed Tailoring）",
+    "items_desc": "宽松西装/衬衫 + 大地色亚麻裤",
+    "colors": "大地色",
+    "temp_min": 24,
+    "temp_max": 32,
+    "scene": [
+      "通勤",
+      "度假"
+    ],
+    "source": "Alibaba 2025男夏趋势",
+    "source_url": "https://www.alibaba.com/blog/2025-mens-summer-fashion-the-hottest-trends-redefining-style-under-the-sun.html"
+  },
+  {
+    "look_id": "M25SS-02",
+    "gender": "男",
+    "season": "2025春夏",
+    "style_theme": "大地色亚麻",
+    "items_desc": "亚麻混纺衬衫 + 短裤",
+    "colors": "大地色、米白",
+    "temp_min": 26,
+    "temp_max": 34,
+    "scene": [
+      "度假",
+      "休闲"
+    ],
+    "source": "Alibaba 2025男夏趋势",
+    "source_url": "https://www.alibaba.com/blog/2025-mens-summer-fashion-the-hottest-trends-redefining-style-under-the-sun.html"
+  },
+  {
+    "look_id": "M25SS-03",
+    "gender": "男",
+    "season": "2025春夏",
+    "style_theme": "复古运动（Retro Sportswear）",
+    "items_desc": "复古印花T恤/短裤 + 运动鞋（70s运动风）",
+    "colors": "复古色系",
+    "temp_min": 24,
+    "temp_max": 32,
+    "scene": [
+      "运动",
+      "街头"
+    ],
+    "source": "Alibaba / Pretty Trendie 2025",
+    "source_url": "https://www.prettytrendie.com/es/tendencias-de-moda-masculina-para-primavera-verano/"
+  },
+  {
+    "look_id": "M25SS-04",
+    "gender": "男",
+    "season": "2025春夏",
+    "style_theme": "高级极简（Elevated Minimalism）",
+    "items_desc": "无Logo基础T恤 + 直筒裤 + 极简鞋履",
+    "colors": "黑白灰",
+    "temp_min": 24,
+    "temp_max": 32,
+    "scene": [
+      "通勤",
+      "休闲"
+    ],
+    "source": "Alibaba 2025男夏趋势",
+    "source_url": "https://www.alibaba.com/blog/2025-mens-summer-fashion-the-hottest-trends-redefining-style-under-the-sun.html"
+  },
+  {
+    "look_id": "M25SS-05",
+    "gender": "男",
+    "season": "2025春夏",
+    "style_theme": "解构牛仔 + 透气网眼",
+    "items_desc": "解构牛仔外套 + 网眼透气T恤",
+    "colors": "牛仔蓝、黑",
+    "temp_min": 24,
+    "temp_max": 32,
+    "scene": [
+      "街头"
+    ],
+    "source": "Alibaba 2025男夏趋势",
+    "source_url": "https://www.alibaba.com/blog/2025-mens-summer-fashion-the-hottest-trends-redefining-style-under-the-sun.html"
+  }
+]

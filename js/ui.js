@@ -362,24 +362,38 @@
     );
   };
 
-  /* ---------------- 天气卡 ---------------- */
+  /* ---------------- 天气卡 ----------------
+     版式：今天在最上面、最醒目（带日期），明天在下面一条（也带日期）。
+     opts: { onEditCity }
+     -------------------------------------------------- */
   UI.weatherCard = function (w, opts) {
     var o = opts || {};
     if (!w) return h('div', { class: 'weather-skeleton' });
 
-    var t = w.tomorrow || {};
+    var today = w.today || {};
+    var tm = w.tomorrow || {};
     var card = h('div', { class: 'weather-card w-' + (w.iconClass || 'cloudy') });
 
+    function dayLabel(day, prefix) {
+      var parts = [prefix];
+      if (day.date) {
+        parts.push(U.fmtDate(day.date));
+        var wd = U.weekdayOf(day.date);
+        if (wd) parts.push(wd);
+      }
+      return parts.join(' ');
+    }
+
+    function num(v) {
+      return v === undefined || v === null ? '-' : String(v);
+    }
+
+    /* 顶部：城市 + 改城市 */
     card.appendChild(
       h(
         'div',
         { class: 'weather-top' },
-        h(
-          'div',
-          { class: 'weather-city' },
-          h('span', null, w.city || '未设置城市'),
-          h('small', null, '明天 ' + U.tomorrowWeekday())
-        ),
+        h('div', { class: 'weather-city' }, h('span', null, w.city || '未设置城市')),
         h(
           'button',
           { class: 'weather-edit', type: 'button', onclick: o.onEditCity || null },
@@ -388,17 +402,41 @@
       )
     );
 
+    /* 今天：大字温度 + 天气 + 温度区间 */
+    var todayTemp = w.currentTemp === null || w.currentTemp === undefined ? today.tmax : w.currentTemp;
+    var todayText = w.currentText || today.text || '天气未知';
+
+    card.appendChild(
+      h('div', { class: 'weather-day' }, dayLabel(today, '今天'))
+    );
+
     card.appendChild(
       h(
         'div',
         { class: 'weather-main' },
-        h('div', { class: 'weather-temp' }, String(t.tmax), h('span', null, '°')),
+        h('div', { class: 'weather-temp' }, num(todayTemp), h('span', null, '°')),
         h(
           'div',
           { class: 'weather-desc' },
-          h('strong', null, t.text || '天气未知'),
-          h('span', null, (t.tmin === undefined ? '-' : t.tmin) + '° ~ ' + (t.tmax === undefined ? '-' : t.tmax) + '°')
+          h('strong', null, todayText),
+          h(
+            'span',
+            null,
+            '今天 ' + num(today.tmin) + '° ~ ' + num(today.tmax) + '°' +
+              (today.precip === null || today.precip === undefined ? '' : '　降水 ' + today.precip + '%')
+          )
         )
+      )
+    );
+
+    /* 明天：一条紧凑的信息行 */
+    card.appendChild(
+      h(
+        'div',
+        { class: 'weather-next' },
+        h('span', { class: 'weather-next-day' }, dayLabel(tm, '明天')),
+        h('span', { class: 'weather-next-main' }, tm.text || '天气未知'),
+        h('span', { class: 'weather-next-temp' }, num(tm.tmax) + '° / ' + num(tm.tmin) + '°')
       )
     );
 
@@ -406,8 +444,8 @@
       h(
         'div',
         { class: 'weather-foot' },
-        h('span', null, '降水概率 ', h('b', null, t.precip === null || t.precip === undefined ? '—' : t.precip + '%')),
-        h('span', null, '体感温度 ', h('b', null, Math.round(w.tempAvg) + '°')),
+        h('span', null, '明天降水 ', h('b', null, tm.precip === null || tm.precip === undefined ? '—' : tm.precip + '%')),
+        h('span', null, '明天体感 ', h('b', null, Math.round(w.tempAvg) + '°')),
         w.stale ? h('span', null, '（离线缓存）') : null
       )
     );

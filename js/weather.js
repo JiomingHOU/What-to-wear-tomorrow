@@ -241,7 +241,7 @@
   /* ---------------------------------------------------------------------
      天气预报
      --------------------------------------------------------------------- */
-  /* 返回 { city, latitude, longitude, days:[{date,tmax,tmin,code,precip,text}], tomorrow, updatedAt, stale } */
+  /* 返回 { city, today, tomorrow, currentTemp, days:[...], tempAvg, updatedAt, stale } */
   W.fetchForecast = function (cityName) {
     return W.resolveCity(cityName).then(function (coords) {
       if (!coords) throw new Error('还没有设置城市，请先选一个城市。');
@@ -250,6 +250,8 @@
         longitude: coords.longitude,
         /* weather_code 是新参数名，老版本接口叫 weathercode，下面两个字段都读一遍 */
         daily: 'weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max',
+        /* 当前实况，用来显示「今天现在多少度」 */
+        current: 'temperature_2m,weather_code',
         timezone: 'auto',
         forecast_days: 3,
         wind_speed_unit: 'kmh',
@@ -286,26 +288,44 @@
 
         /* 找到「明天」那一天：优先按本地日期匹配，找不到就用第 2 天 */
         var tomorrowKey = U.tomorrowStr();
-        var tomorrow = null;
-        for (var i = 0; i < days.length; i++) {
-          if (days[i].date === tomorrowKey) {
-            tomorrow = days[i];
-            break;
+        var todayKey = U.todayStr();
+
+        function findDay(key, fallbackIndex) {
+          for (var i = 0; i < days.length; i++) {
+            if (days[i].date === key) return days[i];
           }
+          return days[fallbackIndex] || days[0];
         }
-        if (!tomorrow) tomorrow = days[1] || days[0];
+
+        var today = findDay(todayKey, 0);
+        var tomorrow = findDay(tomorrowKey, 1);
+
+        /* 当前实况温度（接口的 current 字段，可能拿不到） */
+        var cur = (data && data.current) || {};
+        var currentTemp =
+          cur.temperature_2m === null || cur.temperature_2m === undefined
+            ? null
+            : Math.round(cur.temperature_2m);
+        var currentCode =
+          cur.weather_code === null || cur.weather_code === undefined
+            ? null
+            : cur.weather_code;
 
         var result = {
           city: cityName,
           latitude: coords.latitude,
           longitude: coords.longitude,
           days: days,
+          today: today,
           tomorrow: tomorrow,
+          currentTemp: currentTemp,
+          currentCode: currentCode,
+          currentText: currentCode === null ? '' : W.wmoText(currentCode),
           updatedAt: Date.now(),
           stale: false,
-          /* 明日体感温度：最高最低取平均，再四舍五入 */
+          /* 明日体感温度：最高最低取平均，再四舍五入（推荐引擎用这个） */
           tempAvg: Math.round(((tomorrow.tmax + tomorrow.tmin) / 2) * 10) / 10,
-          iconClass: wmoClass(tomorrow.code),
+          iconClass: wmoClass(today.code),
           tip: wmoTip(tomorrow.code, tomorrow.tmax, tomorrow.tmin),
         };
 

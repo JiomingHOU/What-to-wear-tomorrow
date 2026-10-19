@@ -1,0 +1,1609 @@
+[
+  {
+    "look_id": "W20SS-01",
+    "gender": "女",
+    "season": "2020春夏",
+    "style_theme": "BM风甜酷",
+    "items_desc": "白色短款露脐针织短袖 + 高腰浅蓝直筒牛仔裤 + 厚底小白鞋 + 黑色迷你腋下包",
+    "colors": "白×浅蓝×黑",
+    "temp_min": 24,
+    "temp_max": 32,
+    "scene": [
+      "校园",
+      "约会"
+    ],
+    "source": "新浪时尚 2020-06",
+    "source_url": ""
+  },
+  {
+    "look_id": "W20SS-02",
+    "gender": "女",
+    "season": "2020春夏",
+    "style_theme": "法式碎花吊带裙",
+    "items_desc": "米白底小雏菊碎花吊带连衣裙 + 米色短款针织开衫 + 草编托特包 + 棕色平底凉鞋",
+    "colors": "米白×碎花×棕",
+    "temp_min": 22,
+    "temp_max": 30,
+    "scene": [
+      "度假",
+      "约会"
+    ],
+    "source": "中国日报网 2020-06",
+    "source_url": ""
+  },
+  {
+    "look_id": "W20AW-01",
+    "gender": "女",
+    "season": "2020秋冬",
+    "style_theme": "大女人廓形西装",
+    "items_desc": "驼色宽肩oversize西装外套 + 黑色高领羊毛针织打底 + 深灰直筒西裤 + 黑色尖头短靴",
+    "colors": "驼×黑×深灰",
+    "temp_min": 10,
+    "temp_max": 18,
+    "scene": [
+      "通勤",
+      "商务"
+    ],
+    "source": "凤凰艺术 2020-02",
+    "source_url": ""
+  },
+  {
+    "look_id": "W20AW-02",
+    "gender": "女",
+    "season": "2020秋冬",
+    "style_theme": "及踝针织连衣裙",
+    "items_desc": "燕麦色坑条羊毛及踝针织连衣裙 + 焦糖色皮质短靴 + 同色系针织贝雷帽",
+    "colors": "燕麦×焦糖",
+    "temp_min": 5,
+    "temp_max": 15,
+    "scene": [
+      "通勤",
+      "约会"
+    ],
+    "source": "环球网·Vogue 2020-11",
+    "source_url": ""
+  },
+  {
+    "look_id": "W20AW-03",
+    "gender": "女",
+    "season": "2020秋冬",
+    "style_theme": "腋下包风衣叠穿",
+    "items_desc": "卡其色双排扣长风衣 + 黑色修身高领针织 + 深蓝直筒牛仔裤 + 棕色皮质腋下包 + 乐福鞋",
+    "colors": "卡其×黑×棕",
+    "temp_min": 12,
+    "temp_max": 20,
+    "scene": [
+      "通勤",
+      "休闲"
+    ],
+    "source": "中国日报网 2020-05",
+    "source_url": ""
+  },
+  {
+    "look_id": "M20SS-01",
+    "gender": "男",
+    "season": "2020春夏",
+    "style_theme": "Boyish 宽松廓形",
+    "items_desc": "卡其色宽松单西外套+白色圆领T恤+灰蓝色直筒休闲裤+白色低帮板鞋",
+    "colors": "卡其×白×灰蓝",
+    "temp_min": 18,
+    "temp_max": 26,
+    "scene": [
+      "通勤",
+      "休闲"
+    ],
+    "source": "羊城晚报 2020-05（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "M20SS-02",
+    "gender": "男",
+    "season": "2020春夏",
+    "style_theme": "垂感轻薄衬衫",
+    "items_desc": "浅蓝垂坠感宽松短袖衬衫+米白色高腰直筒裤+棕色乐福鞋",
+    "colors": "浅蓝×米白",
+    "temp_min": 22,
+    "temp_max": 30,
+    "scene": [
+      "约会",
+      "通勤"
+    ],
+    "source": "Man of Many 2020-05（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "M20AW-01",
+    "gender": "男",
+    "season": "2020秋冬",
+    "style_theme": "工装 Utility",
+    "items_desc": "卡其色多口袋工装马甲+白色打底T恤+军绿色直筒工装裤+黑色厚底工装靴",
+    "colors": "卡其×军绿×黑",
+    "temp_min": 10,
+    "temp_max": 18,
+    "scene": [
+      "休闲",
+      "通勤"
+    ],
+    "source": "ASOS 2020-10（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "M20AW-02",
+    "gender": "男",
+    "season": "2020秋冬",
+    "style_theme": "黑色面包羽绒服",
+    "items_desc": "黑色短款面包羽绒服+内搭浅灰针织衫+深蓝直筒牛仔裤+白色板鞋",
+    "colors": "黑×浅灰×深蓝",
+    "temp_min": 2,
+    "temp_max": 10,
+    "scene": [
+      "通勤",
+      "休闲"
+    ],
+    "source": "新浪时尚 2020-12（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "M20AW-03",
+    "gender": "男",
+    "season": "2020秋冬",
+    "style_theme": "复古老爹阔腿裤",
+    "items_desc": "黑色宽松圆领毛衣+棕色硬挺老爹阔腿裤+棕色切尔西靴",
+    "colors": "黑×棕",
+    "temp_min": 8,
+    "temp_max": 16,
+    "scene": [
+      "通勤",
+      "休闲"
+    ],
+    "source": "澎湃新闻 2020-11（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "W21SS-01",
+    "gender": "女",
+    "season": "2021春夏",
+    "style_theme": "克莱因蓝撞白",
+    "items_desc": "克莱因蓝修身短袖T恤 + 白色高腰A字短裙 + 白色厚底板鞋 + 银色细项链",
+    "colors": "克莱因蓝×白",
+    "temp_min": 24,
+    "temp_max": 32,
+    "scene": [
+      "休闲",
+      "约会"
+    ],
+    "source": "澎湃新闻 2021-08",
+    "source_url": ""
+  },
+  {
+    "look_id": "W21SS-02",
+    "gender": "女",
+    "season": "2021春夏",
+    "style_theme": "JK学院风",
+    "items_desc": "白色短袖衬衫 + 藏青格纹高腰百褶短裙 + 白色中筒袜 + 棕色乐福鞋 + 棕色帆布双肩包",
+    "colors": "白×藏青格纹×棕",
+    "temp_min": 22,
+    "temp_max": 30,
+    "scene": [
+      "校园",
+      "约会"
+    ],
+    "source": "中国网 2021-04",
+    "source_url": ""
+  },
+  {
+    "look_id": "W21AW-01",
+    "gender": "女",
+    "season": "2021秋冬",
+    "style_theme": "BV绿粗针毛衣",
+    "items_desc": "BV深草绿色粗针麻花毛衣 + 黑色高腰直筒皮裤 + 黑色切尔西短靴 + 金色小耳环",
+    "colors": "BV绿×黑",
+    "temp_min": 8,
+    "temp_max": 18,
+    "scene": [
+      "通勤",
+      "约会"
+    ],
+    "source": "新浪时尚 2021-08",
+    "source_url": ""
+  },
+  {
+    "look_id": "W21AW-02",
+    "gender": "女",
+    "season": "2021秋冬",
+    "style_theme": "V口西部靴叠穿",
+    "items_desc": "黑色修身高领针织打底 + 浅蓝直筒牛仔裤（裤脚塞进靴筒）+ 黑色V口尖头西部牛仔靴 + 黑色菱格纹托特包",
+    "colors": "黑×浅蓝",
+    "temp_min": 10,
+    "temp_max": 20,
+    "scene": [
+      "通勤",
+      "休闲"
+    ],
+    "source": "腾讯网 2021-12",
+    "source_url": ""
+  },
+  {
+    "look_id": "W21AW-03",
+    "gender": "女",
+    "season": "2021秋冬",
+    "style_theme": "麻花毛衣×格纹裙",
+    "items_desc": "燕麦色麻花针织毛衣 + 酒红小格纹A字半身裙 + 米色堆堆袜 + 白色帆布鞋 + 黑色贝雷帽",
+    "colors": "燕麦×酒红格纹",
+    "temp_min": 12,
+    "temp_max": 20,
+    "scene": [
+      "校园",
+      "休闲"
+    ],
+    "source": "上饶日报 2021-12",
+    "source_url": ""
+  },
+  {
+    "look_id": "M21SS-01",
+    "gender": "男",
+    "season": "2021春夏",
+    "style_theme": "Cityboy 清爽",
+    "items_desc": "白色宽松落肩短袖T恤+卡其色宽松及膝短裤+白色板鞋+米白棒球帽",
+    "colors": "白×卡其",
+    "temp_min": 24,
+    "temp_max": 32,
+    "scene": [
+      "休闲",
+      "校园"
+    ],
+    "source": "网易 2021-08（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "M21SS-02",
+    "gender": "男",
+    "season": "2021春夏",
+    "style_theme": "克莱因蓝",
+    "items_desc": "克莱因蓝宽松短袖T恤+白色直筒牛仔裤+白色板鞋",
+    "colors": "克莱因蓝×白",
+    "temp_min": 24,
+    "temp_max": 32,
+    "scene": [
+      "休闲",
+      "约会"
+    ],
+    "source": "网易 2021-07（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "M21AW-01",
+    "gender": "男",
+    "season": "2021秋冬",
+    "style_theme": "山系 Outdoorboy",
+    "items_desc": "浅卡其防泼水钓鱼夹克+灰色圆领卫衣内搭+黑色宽松机能长裤+棕色徒步鞋",
+    "colors": "卡其×灰×黑",
+    "temp_min": 10,
+    "temp_max": 18,
+    "scene": [
+      "休闲",
+      "运动"
+    ],
+    "source": "新浪时尚 2021-06（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "M21AW-02",
+    "gender": "男",
+    "season": "2021秋冬",
+    "style_theme": "廓形海军蓝 Blazer",
+    "items_desc": "海军蓝宽松廓形单排扣西装+白色T恤+破坏洗水直筒牛仔裤+白色板鞋",
+    "colors": "海军蓝×白×洗水牛仔",
+    "temp_min": 15,
+    "temp_max": 22,
+    "scene": [
+      "通勤",
+      "约会"
+    ],
+    "source": "新浪时尚 2021-06（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "M21AW-03",
+    "gender": "男",
+    "season": "2021秋冬",
+    "style_theme": "军事风大衣",
+    "items_desc": "军绿色 M65 工装大衣+黑色高领针织衫+深色直筒工装裤+黑色马丁靴",
+    "colors": "军绿×黑",
+    "temp_min": 0,
+    "temp_max": 8,
+    "scene": [
+      "休闲",
+      "通勤"
+    ],
+    "source": "TOPMEN男装网 2021-12（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "W22SS-01",
+    "gender": "女",
+    "season": "2022春夏",
+    "style_theme": "新中式日常",
+    "items_desc": "黑色盘扣斜襟改良短上衣 + 米白色高腰阔腿长裤 + 珍珠耳钉 + 黑色布面玛丽珍鞋",
+    "colors": "黑×米白",
+    "temp_min": 22,
+    "temp_max": 30,
+    "scene": [
+      "通勤",
+      "约会"
+    ],
+    "source": "央视网 2022-07",
+    "source_url": ""
+  },
+  {
+    "look_id": "W22SS-02",
+    "gender": "女",
+    "season": "2022春夏",
+    "style_theme": "瑜伽裤外穿",
+    "items_desc": "白色宽松oversize卫衣 + 高腰黑色瑜伽裤（legging）+ 灰色老爹运动鞋 + 黑色棒球帽",
+    "colors": "白×黑×灰",
+    "temp_min": 22,
+    "temp_max": 30,
+    "scene": [
+      "运动",
+      "休闲"
+    ],
+    "source": "新浪时尚 2022-06",
+    "source_url": ""
+  },
+  {
+    "look_id": "W22AW-01",
+    "gender": "女",
+    "season": "2022秋冬",
+    "style_theme": "Gorpcore山系",
+    "items_desc": "军绿色防水冲锋衣 + 灰色针织内搭 + 深蓝紧身牛仔裤 + 棕色登山靴 + 卡其色奔尼帽",
+    "colors": "军绿×灰×棕",
+    "temp_min": 10,
+    "temp_max": 20,
+    "scene": [
+      "运动",
+      "休闲"
+    ],
+    "source": "CBNData 2022-11",
+    "source_url": ""
+  },
+  {
+    "look_id": "W22AW-02",
+    "gender": "女",
+    "season": "2022秋冬",
+    "style_theme": "芭蕾风Balletcore",
+    "items_desc": "奶白色裹身针织吊带 + 裸粉色薄纱半身长裙 + 肉色堆叠针织袜套 + 缎面芭蕾平底鞋",
+    "colors": "奶白×裸粉",
+    "temp_min": 12,
+    "temp_max": 20,
+    "scene": [
+      "约会",
+      "休闲"
+    ],
+    "source": "羊城晚报 2023-02",
+    "source_url": ""
+  },
+  {
+    "look_id": "W22AW-03",
+    "gender": "女",
+    "season": "2022秋冬",
+    "style_theme": "冬日Leggings外穿",
+    "items_desc": "燕麦色廓形长款羊毛大衣 + 黑色高领打底 + 黑色紧身瑜伽裤 + 棕色切尔西短靴",
+    "colors": "燕麦×黑×棕",
+    "temp_min": 5,
+    "temp_max": 15,
+    "scene": [
+      "通勤",
+      "运动"
+    ],
+    "source": "腾讯网 2023-01",
+    "source_url": ""
+  },
+  {
+    "look_id": "M22SS-01",
+    "gender": "男",
+    "season": "2022春夏",
+    "style_theme": "Blokecore 球衣风",
+    "items_desc": "复古撞色短袖足球球衣+水洗直筒牛仔裤+复古白板鞋+棒球帽",
+    "colors": "球衣撞色×水洗蓝",
+    "temp_min": 20,
+    "temp_max": 28,
+    "scene": [
+      "休闲",
+      "运动"
+    ],
+    "source": "新浪时尚 2022-08（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "M22SS-02",
+    "gender": "男",
+    "season": "2022春夏",
+    "style_theme": "Clean Fit 雏形",
+    "items_desc": "白色合身短袖衬衫+黑色直筒休闲裤+黑色德比鞋",
+    "colors": "白×黑",
+    "temp_min": 22,
+    "temp_max": 30,
+    "scene": [
+      "通勤",
+      "约会"
+    ],
+    "source": "NOWRE现客 2022-12（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "M22AW-01",
+    "gender": "男",
+    "season": "2022秋冬",
+    "style_theme": "机能风全黑",
+    "items_desc": "黑色连帽冲锋衣+战术斜挎腰包+黑色机能伞兵裤+白色AF1板鞋",
+    "colors": "黑×白",
+    "temp_min": 10,
+    "temp_max": 18,
+    "scene": [
+      "休闲",
+      "运动"
+    ],
+    "source": "抖音 2022-09（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "M22AW-02",
+    "gender": "男",
+    "season": "2022秋冬",
+    "style_theme": "山系男孩",
+    "items_desc": "橄榄绿冲锋衣+卡其钓鱼工装马甲+棕色灯芯绒长裤+大黄靴",
+    "colors": "橄榄绿×卡其×棕",
+    "temp_min": 8,
+    "temp_max": 16,
+    "scene": [
+      "休闲",
+      "运动"
+    ],
+    "source": "36氪 2022-11（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "M22AW-03",
+    "gender": "男",
+    "season": "2022秋冬",
+    "style_theme": "All Black 街头",
+    "items_desc": "黑色廓形夹棉衬衫外套+黑色直筒牛仔裤+黑色板鞋",
+    "colors": "全黑",
+    "temp_min": 5,
+    "temp_max": 14,
+    "scene": [
+      "休闲"
+    ],
+    "source": "新浪时尚 2022-11（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "W23SS-01",
+    "gender": "女",
+    "season": "2023春夏",
+    "style_theme": "多巴胺穿搭",
+    "items_desc": "高饱和明黄色吊带连衣裙 + 白色帆布鞋 + 彩色串珠项链 + 亮色腋下包",
+    "colors": "明黄×白",
+    "temp_min": 24,
+    "temp_max": 32,
+    "scene": [
+      "休闲",
+      "度假"
+    ],
+    "source": "新华网 2022-12",
+    "source_url": ""
+  },
+  {
+    "look_id": "W23SS-02",
+    "gender": "女",
+    "season": "2023春夏",
+    "style_theme": "Barbiecore芭比粉",
+    "items_desc": "芭比粉色针织短上衣 + 同色高腰A字短裙 + 粉色厚底凉鞋 + 粉色缎面蝴蝶结发夹",
+    "colors": "芭比粉",
+    "temp_min": 24,
+    "temp_max": 32,
+    "scene": [
+      "约会",
+      "休闲"
+    ],
+    "source": "Hypebeast 2023-12",
+    "source_url": ""
+  },
+  {
+    "look_id": "W23AW-01",
+    "gender": "女",
+    "season": "2023秋冬",
+    "style_theme": "美拉德棕褐系",
+    "items_desc": "焦糖色双面呢大衣 + 深咖色高领针织 + 燕麦色直筒阔腿裤 + 棕色皮质短靴",
+    "colors": "焦糖×深咖×燕麦",
+    "temp_min": 5,
+    "temp_max": 15,
+    "scene": [
+      "通勤",
+      "约会"
+    ],
+    "source": "新华网 2023-10",
+    "source_url": ""
+  },
+  {
+    "look_id": "W23AW-02",
+    "gender": "女",
+    "season": "2023秋冬",
+    "style_theme": "静奢老钱",
+    "items_desc": "奶白色羊绒大衣 + 同色高领羊绒衫 + 驼色直筒西裤 + 棕色皮质乐福鞋（无logo）",
+    "colors": "奶白×驼",
+    "temp_min": 5,
+    "temp_max": 15,
+    "scene": [
+      "通勤",
+      "商务"
+    ],
+    "source": "新浪时尚 2023-09",
+    "source_url": ""
+  },
+  {
+    "look_id": "W23AW-03",
+    "gender": "女",
+    "season": "2023秋冬",
+    "style_theme": "知识分子风",
+    "items_desc": "藏青色西装马甲 + 白色翻领衬衫叠穿 + 灰色百褶中长裙 + 黑色乐福鞋 + 细框眼镜",
+    "colors": "藏青×白×灰",
+    "temp_min": 12,
+    "temp_max": 20,
+    "scene": [
+      "校园",
+      "通勤"
+    ],
+    "source": "澎湃新闻 2023-09",
+    "source_url": ""
+  },
+  {
+    "look_id": "M23SS-01",
+    "gender": "男",
+    "season": "2023春夏",
+    "style_theme": "Clean Fit 极简",
+    "items_desc": "浅灰合身针织开衫+白色圆领T恤+深蓝水洗直筒牛仔裤+棕色德比鞋",
+    "colors": "灰×白×深蓝",
+    "temp_min": 18,
+    "temp_max": 26,
+    "scene": [
+      "通勤",
+      "约会"
+    ],
+    "source": "新浪时尚 2023-04（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "M23SS-02",
+    "gender": "男",
+    "season": "2023春夏",
+    "style_theme": "印花针织背心",
+    "items_desc": "白色字母印花针织背心+黑色直筒牛仔裤+黑白拼色运动鞋",
+    "colors": "白×黑",
+    "temp_min": 24,
+    "temp_max": 32,
+    "scene": [
+      "休闲",
+      "校园"
+    ],
+    "source": "北京青年报 2023-07（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "M23AW-01",
+    "gender": "男",
+    "season": "2023秋冬",
+    "style_theme": "Gorpcore 山系",
+    "items_desc": "黑色硬壳冲锋衣+灰色抓绒内搭+卡其机能工装裤+户外徒步鞋",
+    "colors": "黑×灰×卡其",
+    "temp_min": 5,
+    "temp_max": 14,
+    "scene": [
+      "休闲",
+      "运动"
+    ],
+    "source": "He Spoke Style 2023-11（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "M23AW-02",
+    "gender": "男",
+    "season": "2023秋冬",
+    "style_theme": "老钱风针织",
+    "items_desc": "驼色半拉链羊绒针织衫+米白衬衫领叠穿+深藏青直筒西裤+棕色乐福鞋",
+    "colors": "驼×藏青×米白",
+    "temp_min": 8,
+    "temp_max": 16,
+    "scene": [
+      "商务",
+      "通勤"
+    ],
+    "source": "MR PORTER 2023-12（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "M23AW-03",
+    "gender": "男",
+    "season": "2023秋冬",
+    "style_theme": "美式复古工装",
+    "items_desc": "棕色灯芯绒翻领黑色工装夹克+黑色棒球帽+黑色宽松工装裤+黑色工装靴",
+    "colors": "黑×棕",
+    "temp_min": 5,
+    "temp_max": 14,
+    "scene": [
+      "休闲"
+    ],
+    "source": "Esquire 2023-12（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "W24SS-01",
+    "gender": "女",
+    "season": "2024春夏",
+    "style_theme": "蝴蝶结元素",
+    "items_desc": "白色缎面蝴蝶结飘带衬衫 + 浅蓝色高腰直筒牛仔裤 + 米色玛丽珍鞋 + 粉色蝴蝶结发夹",
+    "colors": "白×浅蓝×粉",
+    "temp_min": 22,
+    "temp_max": 30,
+    "scene": [
+      "约会",
+      "休闲"
+    ],
+    "source": "新华网 2024-04",
+    "source_url": ""
+  },
+  {
+    "look_id": "W24SS-02",
+    "gender": "女",
+    "season": "2024春夏",
+    "style_theme": "山本裤通勤",
+    "items_desc": "基础白色正肩T恤 + 燕麦色垂坠阔腿山本裤 + 米色德训鞋 + 帆布托特包",
+    "colors": "白×燕麦",
+    "temp_min": 22,
+    "temp_max": 30,
+    "scene": [
+      "通勤",
+      "休闲"
+    ],
+    "source": "抖音 2024-02（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "W24AW-01",
+    "gender": "女",
+    "season": "2024秋冬",
+    "style_theme": "格雷系全灰",
+    "items_desc": "浅灰色针织毛衣 + 深灰色西装阔腿裤 + 中灰色长款大衣 + 灰色乐福鞋",
+    "colors": "全灰系",
+    "temp_min": 5,
+    "temp_max": 15,
+    "scene": [
+      "通勤",
+      "商务"
+    ],
+    "source": "潍坊晚报 2024-01",
+    "source_url": ""
+  },
+  {
+    "look_id": "W24AW-02",
+    "gender": "女",
+    "season": "2024秋冬",
+    "style_theme": "芭蕾风鞋履",
+    "items_desc": "浅灰色廓形西装外套 + 黑色烟管裤 + 裸粉色缎面芭蕾平底鞋",
+    "colors": "灰×黑×裸粉",
+    "temp_min": 12,
+    "temp_max": 20,
+    "scene": [
+      "通勤",
+      "约会"
+    ],
+    "source": "中国新闻周刊 2024-10",
+    "source_url": ""
+  },
+  {
+    "look_id": "W24AW-03",
+    "gender": "女",
+    "season": "2024秋冬",
+    "style_theme": "番茄红点睛",
+    "items_desc": "白色基础T恤 + 番茄红短款夹克 + 深蓝直筒牛仔裤 + 黑色乐福鞋",
+    "colors": "白×番茄红×深蓝",
+    "temp_min": 12,
+    "temp_max": 20,
+    "scene": [
+      "通勤",
+      "休闲"
+    ],
+    "source": "Monsoon UK 2024-09",
+    "source_url": ""
+  },
+  {
+    "look_id": "M24SS-01",
+    "gender": "男",
+    "season": "2024春夏",
+    "style_theme": "Clean Fit 松弛",
+    "items_desc": "白色无logo长袖衬衫+深蓝直筒牛仔裤+白色板鞋",
+    "colors": "白×深蓝",
+    "temp_min": 20,
+    "temp_max": 28,
+    "scene": [
+      "通勤",
+      "休闲"
+    ],
+    "source": "北京青年报 2024-01（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "M24SS-02",
+    "gender": "男",
+    "season": "2024春夏",
+    "style_theme": "复古球服混搭",
+    "items_desc": "宽松复古足球球衣（下摆束起）+水洗直筒牛仔裤+白色板鞋",
+    "colors": "撞色×水洗蓝",
+    "temp_min": 22,
+    "temp_max": 30,
+    "scene": [
+      "休闲",
+      "运动"
+    ],
+    "source": "央视网 2024-06（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "M24AW-01",
+    "gender": "男",
+    "season": "2024秋冬",
+    "style_theme": "秋季山系",
+    "items_desc": "大地棕冲锋衣+灰色连帽卫衣+黑色工装束脚裤+棕色徒步鞋",
+    "colors": "大地棕×灰×黑",
+    "temp_min": 10,
+    "temp_max": 18,
+    "scene": [
+      "休闲",
+      "运动"
+    ],
+    "source": "艺恩数据/搜狐 2024-11（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "M24AW-02",
+    "gender": "男",
+    "season": "2024秋冬",
+    "style_theme": "格雷系穿搭",
+    "items_desc": "浅灰廓形大衣+灰色高领针织衫+深灰直筒西裤+黑色德比鞋",
+    "colors": "灰系",
+    "temp_min": 2,
+    "temp_max": 10,
+    "scene": [
+      "通勤",
+      "商务"
+    ],
+    "source": "北青网 2024-12（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "M24AW-03",
+    "gender": "男",
+    "season": "2024秋冬",
+    "style_theme": "超大廓形针织",
+    "items_desc": "米色超大廓形圆领针织毛衣+宽松直筒工装裤+棕色德比鞋",
+    "colors": "米×大地色",
+    "temp_min": 10,
+    "temp_max": 18,
+    "scene": [
+      "通勤",
+      "休闲"
+    ],
+    "source": "VOGUE时尚网 2024（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-01",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "白T+牛仔裤",
+    "items_desc": "白色纯棉圆领短袖T恤（下摆塞一角）+ 高腰直筒浅蓝水洗牛仔裤 + 小白鞋 + 帆布托特包",
+    "colors": "白×牛仔蓝",
+    "temp_min": 22,
+    "temp_max": 30,
+    "scene": [
+      "休闲",
+      "校园"
+    ],
+    "source": "小红书 2023-03（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-02",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "小黑裙",
+    "items_desc": "黑色修身针织吊带短款连衣裙 + 黑色细带高跟凉鞋 + 迷你金属链条包 + 小耳坠",
+    "colors": "黑",
+    "temp_min": 18,
+    "temp_max": 26,
+    "scene": [
+      "约会",
+      "商务"
+    ],
+    "source": "小红书 2023-07（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-03",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "西装+白衬衫",
+    "items_desc": "浅灰羊毛混纺正肩西装外套 + 白色翻领衬衫 + 藏青直筒西裤 + 黑色乐福鞋 + 皮质公文包",
+    "colors": "米白×藏青",
+    "temp_min": 15,
+    "temp_max": 25,
+    "scene": [
+      "通勤",
+      "商务"
+    ],
+    "source": "小红书 2023-07（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-04",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "西装+白T",
+    "items_desc": "黑色oversize西装外套 + 纯白基础T恤 + 高腰直筒牛仔裤 + 乐福鞋 + 银色细项链",
+    "colors": "炭灰×白×牛仔蓝",
+    "temp_min": 15,
+    "temp_max": 24,
+    "scene": [
+      "通勤",
+      "休闲"
+    ],
+    "source": "腾讯新闻 2026-05",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-05",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "驼色大衣+高领",
+    "items_desc": "驼色双面呢长大衣 + 白色高领羊毛毛衣 + 深蓝直筒牛仔裤 + 咖色短靴 + 格纹围巾",
+    "colors": "驼×白×深蓝",
+    "temp_min": 0,
+    "temp_max": 10,
+    "scene": [
+      "通勤",
+      "约会"
+    ],
+    "source": "小红书 2023-05（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-06",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "卡其风衣+牛仔",
+    "items_desc": "卡其色嘎巴甸系带长风衣（敞开穿）+ 白色T恤 + 浅蓝直筒牛仔裤 + 乐福鞋 + 皮质腋下包",
+    "colors": "卡其×白×浅牛仔蓝",
+    "temp_min": 12,
+    "temp_max": 20,
+    "scene": [
+      "通勤",
+      "休闲"
+    ],
+    "source": "搜狐 2026-09",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-07",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "法式茶歇裙",
+    "items_desc": "米白底小碎花V领裹身茶歇裙（收腰A字摆）+ 草编斜挎包 + 编织平底凉鞋 + 宽檐草帽",
+    "colors": "米白×碎花",
+    "temp_min": 22,
+    "temp_max": 30,
+    "scene": [
+      "度假",
+      "约会"
+    ],
+    "source": "环球网 2026",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-08",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "条纹衫+牛仔裤",
+    "items_desc": "蓝白横条纹海魂衫（灯笼袖）+ 高腰直筒牛仔裤 + 帆布小白鞋 + 帆布包",
+    "colors": "藏青×白×牛仔蓝",
+    "temp_min": 18,
+    "temp_max": 26,
+    "scene": [
+      "休闲",
+      "度假"
+    ],
+    "source": "抖音 2024-04",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-09",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "针织开衫+半裙",
+    "items_desc": "米白V领软糯针织开衫 + 浅蓝牛仔A字半裙 + 玛丽珍鞋 + 中筒棉袜",
+    "colors": "米白×牛仔蓝",
+    "temp_min": 15,
+    "temp_max": 24,
+    "scene": [
+      "约会",
+      "通勤"
+    ],
+    "source": "抖音 2024-08",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-10",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "皮衣+牛仔",
+    "items_desc": "黑色短款机车皮衣 + 白色圆领T恤 + 高腰直筒牛仔裤 + 黑色马丁靴",
+    "colors": "黑×白×牛仔蓝",
+    "temp_min": 12,
+    "temp_max": 20,
+    "scene": [
+      "休闲",
+      "约会"
+    ],
+    "source": "ELLE 2026-01",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-11",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "卫衣+Leggings",
+    "items_desc": "花灰oversize连帽卫衣 + 黑色高腰瑜伽紧身裤（Leggings）+ 厚底老爹鞋 + 棒球帽",
+    "colors": "花灰×黑",
+    "temp_min": 15,
+    "temp_max": 24,
+    "scene": [
+      "运动",
+      "休闲"
+    ],
+    "source": "小红书 2023-07（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-12",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "工装+T恤",
+    "items_desc": "卡其色多口袋工装夹克 + 白色短袖T恤 + 同色系卡其工装裤 + 马丁靴",
+    "colors": "卡其×白",
+    "temp_min": 15,
+    "temp_max": 24,
+    "scene": [
+      "休闲",
+      "运动"
+    ],
+    "source": "抖音 2024-04",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-13",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "牛仔套装",
+    "items_desc": "水洗蓝牛仔外套（微敞露白T）+ 同色系高腰直筒牛仔裤 + 白色T恤 + 小白鞋",
+    "colors": "牛仔蓝",
+    "temp_min": 15,
+    "temp_max": 24,
+    "scene": [
+      "休闲",
+      "校园"
+    ],
+    "source": "Vogue中国",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-14",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "Clean Fit 全中性色",
+    "items_desc": "米白棉质衬衫 + 燕麦色垂感阔腿西裤 + 棕色乐福鞋 + 极简皮质托特包 + 金属腕表",
+    "colors": "米白×燕麦×灰",
+    "temp_min": 15,
+    "temp_max": 25,
+    "scene": [
+      "通勤",
+      "商务"
+    ],
+    "source": "小红书 2023-05（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-15",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "白衬衫+阔腿牛仔",
+    "items_desc": "白色宽松牛津纺衬衫（下摆塞一角）+ 高腰复古蓝阔腿牛仔裤 + 乐福鞋 + 条纹丝巾系手腕",
+    "colors": "白×复古牛仔蓝",
+    "temp_min": 18,
+    "temp_max": 26,
+    "scene": [
+      "通勤",
+      "休闲"
+    ],
+    "source": "小红书 2023-03（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-16",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "高领毛衣+阔腿裤",
+    "items_desc": "燕麦色高领羊绒毛衣 + 深灰垂感阔腿裤 + 尖头短靴 + 小型金属耳钉",
+    "colors": "燕麦×深灰",
+    "temp_min": 5,
+    "temp_max": 15,
+    "scene": [
+      "通勤",
+      "约会"
+    ],
+    "source": "小红书 2023-07（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-17",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "风衣+连衣裙",
+    "items_desc": "卡其色短款风衣 + 碎花吊带连衣裙（V领收腰）+ 棕色短靴 + 草编包",
+    "colors": "卡其×碎花",
+    "temp_min": 12,
+    "temp_max": 20,
+    "scene": [
+      "约会",
+      "通勤"
+    ],
+    "source": "小红书 2023-03（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-18",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "针织马甲+衬衫",
+    "items_desc": "灰色V领针织马甲 + 白色翻领衬衫 + 藏青百褶短裙 + 乐福鞋 + 中筒袜",
+    "colors": "花灰×白×藏青",
+    "temp_min": 15,
+    "temp_max": 24,
+    "scene": [
+      "校园",
+      "通勤"
+    ],
+    "source": "小红书 2023-08（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-19",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "皮衣+碎花裙",
+    "items_desc": "黑色短款皮衣夹克 + 浅色碎花中长连衣裙 + 黑色短靴",
+    "colors": "黑×碎花",
+    "temp_min": 12,
+    "temp_max": 20,
+    "scene": [
+      "约会",
+      "休闲"
+    ],
+    "source": "潍坊晚报 2024-10",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-20",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "燕麦大衣+牛仔",
+    "items_desc": "燕麦色双面呢中长款大衣 + 白色高领打底 + 复古蓝直筒牛仔裤 + 咖色切尔西靴",
+    "colors": "燕麦×复古牛仔蓝",
+    "temp_min": 5,
+    "temp_max": 15,
+    "scene": [
+      "休闲",
+      "通勤"
+    ],
+    "source": "抖音 2025-09",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-21",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "白衬衫+A字半裙",
+    "items_desc": "白色棉麻圆领衬衫（绑带收腰）+ 奶茶色高腰A字半裙 + 玛丽珍鞋",
+    "colors": "白×奶茶",
+    "temp_min": 18,
+    "temp_max": 26,
+    "scene": [
+      "通勤",
+      "约会"
+    ],
+    "source": "小红书 2023-05（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-22",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "泡泡袖衬衫+短裤",
+    "items_desc": "白色垂感棉质泡泡袖衬衫 + 高腰A字微喇牛仔短裤 + 草编厚底凉鞋",
+    "colors": "白×浅蓝",
+    "temp_min": 24,
+    "temp_max": 32,
+    "scene": [
+      "约会",
+      "休闲"
+    ],
+    "source": "360娱乐 2026-09",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-23",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "卫衣+百褶裙",
+    "items_desc": "藏青oversize圆领卫衣 + 灰色百褶短裙 + 白色中筒袜 + 小白鞋",
+    "colors": "藏青×灰",
+    "temp_min": 15,
+    "temp_max": 24,
+    "scene": [
+      "校园",
+      "休闲"
+    ],
+    "source": "小红书 2023-07（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-24",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "酒红毛衣+牛仔",
+    "items_desc": "酒红色高领羊毛毛衣 + 深蓝直筒牛仔裤 + 尖头低跟短靴 + 黑色腋下包",
+    "colors": "酒红×深蓝",
+    "temp_min": 5,
+    "temp_max": 15,
+    "scene": [
+      "约会",
+      "通勤"
+    ],
+    "source": "360娱乐 2026-09",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-25",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "针织连衣裙+长靴",
+    "items_desc": "黑色修身羊毛针织中长连衣裙 + 黑色过膝长靴 + 细皮带 + 迷你链条包",
+    "colors": "黑",
+    "temp_min": 5,
+    "temp_max": 15,
+    "scene": [
+      "约会",
+      "通勤"
+    ],
+    "source": "腾讯新闻 2026-04",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-26",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "衬衫式连衣裙",
+    "items_desc": "蓝白条纹衬衫式连衣裙（细腰带收腰）+ 乐福鞋 + 帆布托特包",
+    "colors": "蓝白条纹×棕",
+    "temp_min": 18,
+    "temp_max": 26,
+    "scene": [
+      "通勤",
+      "休闲"
+    ],
+    "source": "小红书 2023-04（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-27",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "卫衣+阔腿运动裤",
+    "items_desc": "白色oversize圆领卫衣 + 黑色高腰阔腿运动裤 + 老爹鞋 + 棒球帽",
+    "colors": "白×黑",
+    "temp_min": 15,
+    "temp_max": 24,
+    "scene": [
+      "运动",
+      "休闲"
+    ],
+    "source": "抖音 2025-09",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-28",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "Polo衫+百褶裙",
+    "items_desc": "海军蓝棉质Polo衫 + 白色高腰百褶短裙 + 小白鞋 + 长筒棉袜",
+    "colors": "海军蓝×白",
+    "temp_min": 18,
+    "temp_max": 26,
+    "scene": [
+      "校园",
+      "运动"
+    ],
+    "source": "小红书 2023-05（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-29",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "黑大衣+高领",
+    "items_desc": "黑色毛呢长大衣 + 黑色高领打底衫 + 复古蓝微喇牛仔裤 + 黑色高跟短靴 + 黑白格围巾",
+    "colors": "黑×白×复古牛仔蓝",
+    "temp_min": 0,
+    "temp_max": 10,
+    "scene": [
+      "通勤",
+      "商务"
+    ],
+    "source": "抖音 2026-10",
+    "source_url": ""
+  },
+  {
+    "look_id": "WCL-30",
+    "gender": "女",
+    "season": "经典",
+    "style_theme": "亚麻衬衫+阔腿裤",
+    "items_desc": "本白亚麻宽松衬衫（敞开作外搭）+ 米色垂感阔腿裤 + 草编平底凉鞋 + 藤编斜挎包",
+    "colors": "本白×米色",
+    "temp_min": 22,
+    "temp_max": 30,
+    "scene": [
+      "度假",
+      "通勤"
+    ],
+    "source": "小红书 2023-05（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "MCL-01",
+    "gender": "男",
+    "season": "经典",
+    "style_theme": "白T直筒牛仔基础款",
+    "items_desc": "白色重磅圆领短袖T恤 + 浅蓝水洗直筒九分牛仔裤 + 白色低帮板鞋 + 细银戒指",
+    "colors": "白×牛仔蓝",
+    "temp_min": 22,
+    "temp_max": 30,
+    "scene": [
+      "校园",
+      "休闲",
+      "通勤"
+    ],
+    "source": "小红书 2023-03（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "MCL-02",
+    "gender": "男",
+    "season": "经典",
+    "style_theme": "Clean Fit 卫衣公式",
+    "items_desc": "灰色圆领卫衣 + 黑色直筒休闲裤 + 白色白板鞋 + 棒球帽",
+    "colors": "灰×黑×白",
+    "temp_min": 15,
+    "temp_max": 25,
+    "scene": [
+      "休闲",
+      "通勤",
+      "校园"
+    ],
+    "source": "小红书 2023-05（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "MCL-03",
+    "gender": "男",
+    "season": "经典",
+    "style_theme": "黑白灰极简",
+    "items_desc": "白色纯色圆领T恤 + 黑色直筒西裤 + 小白鞋 + 皮质腕表",
+    "colors": "黑×白×灰",
+    "temp_min": 15,
+    "temp_max": 25,
+    "scene": [
+      "通勤",
+      "商务",
+      "休闲"
+    ],
+    "source": "小红书 2023-06（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "MCL-04",
+    "gender": "男",
+    "season": "经典",
+    "style_theme": "西装白衬衫王牌",
+    "items_desc": "深藏青成套西装 + 白色尖领衬衫 + 黑色直筒西裤 + 黑色德比鞋 + 皮质表带手表",
+    "colors": "藏青×白",
+    "temp_min": 10,
+    "temp_max": 20,
+    "scene": [
+      "商务",
+      "通勤"
+    ],
+    "source": "抖音 2025-11（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "MCL-05",
+    "gender": "男",
+    "season": "经典",
+    "style_theme": "卡其裤+针织Polo",
+    "items_desc": "藏蓝色针织Polo衫 + 卡其直筒九分休闲裤 + 棕白德训鞋",
+    "colors": "藏蓝×卡其×白",
+    "temp_min": 18,
+    "temp_max": 26,
+    "scene": [
+      "通勤",
+      "约会"
+    ],
+    "source": "小红书 2023-06（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "MCL-06",
+    "gender": "男",
+    "season": "经典",
+    "style_theme": "工装夹克三件套",
+    "items_desc": "橄榄绿宽松工装夹克 + 黑色基础圆领T恤 + 深灰直筒休闲裤 + 大黄靴",
+    "colors": "橄榄绿×黑×深灰",
+    "temp_min": 12,
+    "temp_max": 20,
+    "scene": [
+      "休闲",
+      "通勤"
+    ],
+    "source": "小红书 2023-07（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "MCL-07",
+    "gender": "男",
+    "season": "经典",
+    "style_theme": "Cityboy 廓形",
+    "items_desc": "米白宽松廓形长袖衬衫 + 卡其阔腿休闲裤 + 白色板鞋 + 帆布腰带",
+    "colors": "米白×卡其×牛仔蓝",
+    "temp_min": 15,
+    "temp_max": 25,
+    "scene": [
+      "休闲",
+      "校园"
+    ],
+    "source": "小红书 2023-03（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "MCL-08",
+    "gender": "男",
+    "season": "经典",
+    "style_theme": "男生少年感日常",
+    "items_desc": "燕麦色圆领针织毛衣 + 深蓝直筒牛仔裤 + 白色低帮板鞋 + 银色细项链",
+    "colors": "燕麦×牛仔蓝×白",
+    "temp_min": 15,
+    "temp_max": 24,
+    "scene": [
+      "休闲",
+      "约会",
+      "校园"
+    ],
+    "source": "小红书 2023-05（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "MCL-09",
+    "gender": "男",
+    "season": "经典",
+    "style_theme": "西装+高领内搭",
+    "items_desc": "深灰色磨毛西装外套 + 黑色高领羊毛衫 + 深灰直筒西裤 + 黑色德比鞋 + 皮质腕表",
+    "colors": "深灰×黑",
+    "temp_min": 8,
+    "temp_max": 16,
+    "scene": [
+      "商务",
+      "通勤"
+    ],
+    "source": "小红书 2026-09（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "MCL-10",
+    "gender": "男",
+    "season": "经典",
+    "style_theme": "牛仔夹克+卫衣叠穿",
+    "items_desc": "浅蓝牛仔夹克 + 白条纹衬衫叠穿 + 卡其直筒裤 + 小白鞋",
+    "colors": "浅蓝×白×卡其",
+    "temp_min": 12,
+    "temp_max": 22,
+    "scene": [
+      "休闲",
+      "校园"
+    ],
+    "source": "识货 2025-12（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "MCL-11",
+    "gender": "男",
+    "season": "经典",
+    "style_theme": "Polo衫+卡其裤",
+    "items_desc": "黑色纯色Polo衫 + 卡其直筒九分裤 + 白色板鞋",
+    "colors": "黑×卡其",
+    "temp_min": 24,
+    "temp_max": 32,
+    "scene": [
+      "校园",
+      "通勤",
+      "度假"
+    ],
+    "source": "抖音 2023-05（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "MCL-12",
+    "gender": "男",
+    "season": "经典",
+    "style_theme": "纯色运动套装",
+    "items_desc": "灰色圆领卫衣 + 同色卫裤运动套装 + 白色运动鞋",
+    "colors": "灰×白",
+    "temp_min": 15,
+    "temp_max": 25,
+    "scene": [
+      "运动",
+      "休闲",
+      "校园"
+    ],
+    "source": "小红书 2023-05（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "MCL-13",
+    "gender": "男",
+    "season": "经典",
+    "style_theme": "老钱风针织叠穿",
+    "items_desc": "驼色针织衫内搭白衬衫 + 卡其直筒西裤 + 棕色乐福鞋",
+    "colors": "驼×白×卡其",
+    "temp_min": 10,
+    "temp_max": 20,
+    "scene": [
+      "通勤",
+      "商务",
+      "约会"
+    ],
+    "source": "小红书 2023-05（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "MCL-14",
+    "gender": "男",
+    "season": "经典",
+    "style_theme": "风衣+高领针织",
+    "items_desc": "格纹驼色风衣 + 黑色高领针织 + 米色直筒西裤 + 翻毛乐福鞋",
+    "colors": "格纹驼×黑×米",
+    "temp_min": 8,
+    "temp_max": 18,
+    "scene": [
+      "通勤",
+      "约会"
+    ],
+    "source": "抖音 2022-12（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "MCL-15",
+    "gender": "男",
+    "season": "经典",
+    "style_theme": "皮衣+白T+牛仔",
+    "items_desc": "黑色翻领皮夹克 + 白色圆领T恤 + 深色直筒牛仔裤 + 黑色短靴",
+    "colors": "黑×白×牛仔蓝",
+    "temp_min": 12,
+    "temp_max": 20,
+    "scene": [
+      "休闲",
+      "约会"
+    ],
+    "source": "识货 2024-11（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "MCL-16",
+    "gender": "男",
+    "season": "经典",
+    "style_theme": "羽绒服+高领毛衣",
+    "items_desc": "黑色立领短款羽绒服 + 黑色高领毛衣 + 深蓝直筒牛仔裤 + 白色运动鞋",
+    "colors": "黑×深蓝",
+    "temp_min": 0,
+    "temp_max": 8,
+    "scene": [
+      "通勤",
+      "休闲"
+    ],
+    "source": "识货 2026-03（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "MCL-17",
+    "gender": "男",
+    "season": "经典",
+    "style_theme": "驼色大衣+高领",
+    "items_desc": "驼色大衣 + 米灰高领毛衣 + 米白直筒裤 + 棕色切尔西靴",
+    "colors": "驼×米灰×米白",
+    "temp_min": 0,
+    "temp_max": 10,
+    "scene": [
+      "约会",
+      "休闲"
+    ],
+    "source": "抖音 2022-02（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "MCL-18",
+    "gender": "男",
+    "season": "经典",
+    "style_theme": "灯芯绒夹克+重磅卫衣",
+    "items_desc": "棕褐色灯芯绒夹克 + 黑色重磅卫衣 + 卡其直筒工装裤 + 工装短靴",
+    "colors": "棕×黑×卡其",
+    "temp_min": 8,
+    "temp_max": 18,
+    "scene": [
+      "休闲",
+      "通勤"
+    ],
+    "source": "搜狐 2025-11（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "MCL-19",
+    "gender": "男",
+    "season": "经典",
+    "style_theme": "白T+衬衫外套叠穿",
+    "items_desc": "白色圆领T恤 + 浅蓝宽松衬衫外套(敞开) + 卡其直筒裤 + 小白鞋",
+    "colors": "白×浅蓝×卡其",
+    "temp_min": 15,
+    "temp_max": 25,
+    "scene": [
+      "通勤",
+      "休闲",
+      "约会"
+    ],
+    "source": "识货 2025-11（摘要）",
+    "source_url": ""
+  },
+  {
+    "look_id": "MCL-20",
+    "gender": "男",
+    "season": "经典",
+    "style_theme": "半高领针织+毛呢裤",
+    "items_desc": "黑色半高领针织衫 + 咖色垂感毛呢直筒裤 + 黑色英伦皮鞋",
+    "colors": "黑×咖",
+    "temp_min": 8,
+    "temp_max": 18,
+    "scene": [
+      "通勤",
+      "商务",
+      "约会"
+    ],
+    "source": "抖音 2022-12（摘要）",
+    "source_url": ""
+  }
+]

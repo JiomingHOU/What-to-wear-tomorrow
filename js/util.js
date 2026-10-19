@@ -202,6 +202,14 @@
     return '周' + '日一二三四五六'.charAt(d.getDay());
   };
 
+  /* 任意日期是周几，例如 U.weekdayOf('2026-10-20') → 「周二」 */
+  U.weekdayOf = function (dateStr) {
+    if (!dateStr) return '';
+    var d = new Date(String(dateStr) + 'T00:00:00');
+    if (isNaN(d.getTime())) return '';
+    return '周' + '日一二三四五六'.charAt(d.getDay());
+  };
+
   /* 2026-10-20 → 10月20日；当年的日期省略年份 */
   U.fmtDate = function (str) {
     if (!str) return '';

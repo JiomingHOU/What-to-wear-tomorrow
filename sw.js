@@ -30,6 +30,7 @@ var PRECACHE = [
   './js/views/selftest.js',
   './js/app.js',
   './data/hot_looks_seed.json',
+  './data/hot_looks_extra.json',
   './data/rules/temperature.json',
   './data/rules/scene.json',
   './data/rules/color.json'

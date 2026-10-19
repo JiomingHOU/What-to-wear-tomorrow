@@ -21,9 +21,32 @@
     season: '',
     style: '',
     expanded: {},
+    /* 一次先显示多少条，避免 148 张卡一起渲染卡顿 */
+    visible: 30,
   };
 
-  var SEASONS = ['2026秋冬', '2026春夏', '2025秋冬', '2025春夏'];
+  var PAGE_SIZE = 30;
+
+  /* 季节筛选项从数据里自己长出来：
+     这样以后再加任何年份/季节的数据，都不用改代码。
+     排序：经典排最前，然后按年份从新到旧，同一年里春夏在秋冬前面。 */
+  function seasonListOf(looks) {
+    var seen = {};
+    (looks || []).forEach(function (l) {
+      if (l.season) seen[l.season] = true;
+    });
+
+    return Object.keys(seen).sort(function (a, b) {
+      if (a === '经典') return -1;
+      if (b === '经典') return 1;
+      var ya = parseInt(a, 10);
+      var yb = parseInt(b, 10);
+      if (!isNaN(ya) && !isNaN(yb) && ya !== yb) return yb - ya;
+      var sa = a.indexOf('春夏') !== -1 ? 0 : 1;
+      var sb = b.indexOf('春夏') !== -1 ? 0 : 1;
+      return sa - sb;
+    });
+  }
 
   /* 风格筛选：热门穿搭的风格主题是自由文本，这里用关键词归到 7 个标准风格里 */
   var STYLE_KEYWORDS = {
@@ -99,19 +122,20 @@
         S.gender,
         function (v) {
           S.gender = v;
+          S.visible = PAGE_SIZE;
           App.render();
         }
       )
     );
 
-    /* 季节筛选 */
+    /* 季节筛选（选项由数据决定） */
     page.appendChild(
       h('div', { class: 'section-title', style: { fontSize: '13px', margin: '16px 2px 8px' } }, '季节')
     );
     var seasonRow = h('div', { class: 'chip-scroll' });
     [{ v: '', label: '全部' }]
       .concat(
-        SEASONS.map(function (s) {
+        seasonListOf(looks).map(function (s) {
           return { v: s, label: s };
         })
       )
@@ -120,6 +144,7 @@
         var b = h('button', { class: 'chip chip-sm' + (on ? ' on' : ''), type: 'button' }, opt.label);
         b.addEventListener('click', function () {
           S.season = opt.v;
+          S.visible = PAGE_SIZE;
           App.render();
         });
         seasonRow.appendChild(b);
@@ -142,6 +167,7 @@
         var b = h('button', { class: 'chip chip-sm' + (on ? ' on' : ''), type: 'button' }, opt.label);
         b.addEventListener('click', function () {
           S.style = opt.v;
+          S.visible = PAGE_SIZE;
           App.render();
         });
         styleRow.appendChild(b);
@@ -159,7 +185,7 @@
           title: '热门穿搭还没加载',
           text: App.state.seedError
             ? '种子数据导入失败：' + App.state.seedError
-            : '第一次打开时应该自动导入 48 条热门穿搭。可以点下面重新导入试试。',
+            : '第一次打开时应该自动导入全部热门穿搭（当前 148 条）。可以点下面重新导入试试。',
           actionLabel: '重新导入',
           onAction: function () {
             App.db.ensureSeed({ force: true }).then(function (res) {
@@ -183,6 +209,21 @@
       return true;
     });
 
+    /* 展示顺序：经典 → 最新年份 → 更早年份；同一年里春夏在前。
+       这样打开就看到"现在能穿/不过时"的，而不是从 2020 年开始翻。 */
+    function seasonRank(season) {
+      if (!season) return -1;
+      if (season === '经典') return 1e9;
+      var y = parseInt(season, 10);
+      if (isNaN(y)) return -1;
+      return y * 10 + (season.indexOf('春夏') !== -1 ? 1 : 0);
+    }
+    filtered.sort(function (a, b) {
+      var d = seasonRank(b.season) - seasonRank(a.season);
+      if (d !== 0) return d;
+      return String(a.look_id || '').localeCompare(String(b.look_id || ''));
+    });
+
     if (!filtered.length) {
       listBox.appendChild(
         UI.empty({
@@ -204,9 +245,33 @@
     var tomorrow = App.state.weather && App.state.weather.tomorrow;
     var tempNow = App.state.weather && typeof App.state.weather.tempAvg === 'number' ? App.state.weather.tempAvg : null;
 
-    filtered.forEach(function (look) {
+    /* 分批渲染：先给 30 张，点按钮再加，避免一次塞 148 张卡拖慢手机 */
+    if (!S.visible || S.visible < PAGE_SIZE) S.visible = PAGE_SIZE;
+    var shown = filtered.slice(0, S.visible);
+
+    shown.forEach(function (look) {
       listBox.appendChild(buildCard(look, tempNow));
     });
+
+    /* 还有更多：给一个「再显示」按钮 */
+    if (filtered.length > shown.length) {
+      var left = filtered.length - shown.length;
+      listBox.appendChild(
+        h(
+          'button',
+          {
+            class: 'btn btn-block',
+            type: 'button',
+            style: { marginTop: '6px' },
+            onclick: function () {
+              S.visible = S.visible + PAGE_SIZE;
+              App.render();
+            },
+          },
+          '再显示 ' + Math.min(PAGE_SIZE, left) + ' 条（还有 ' + left + ' 条）'
+        )
+      );
+    }
 
     listBox.appendChild(
       h(
@@ -535,6 +600,7 @@
       S.season = '';
       S.style = '';
       S.expanded = {};
+      S.visible = PAGE_SIZE;
     },
   };
 })();

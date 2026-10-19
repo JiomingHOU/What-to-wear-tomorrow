@@ -783,11 +783,51 @@ a {
   backdrop-filter: blur(6px);
 }
 
+/* 天气卡里的「今天 10月19日 周日」小标题 */
+.weather-day {
+  margin-top: 12px;
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  opacity: 0.92;
+  position: relative;
+  z-index: 1;
+}
+
+/* 天气卡底部「明天 …」的紧凑一行 */
+.weather-next {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+  padding: 9px 12px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.14);
+  font-size: 12.5px;
+  position: relative;
+  z-index: 1;
+  flex-wrap: wrap;
+}
+
+.weather-next-day {
+  font-weight: 700;
+}
+
+.weather-next-main {
+  opacity: 0.92;
+}
+
+.weather-next-temp {
+  margin-left: auto;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
 .weather-main {
   display: flex;
   align-items: flex-end;
   gap: 12px;
-  margin-top: 14px;
+  margin-top: 6px;
   position: relative;
   z-index: 1;
 }

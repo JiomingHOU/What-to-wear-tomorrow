@@ -434,7 +434,7 @@
           },
         },
         h('span', { class: 'li-ico', html: UI.icon.refresh }),
-        h('span', { class: 'li-main' }, h('span', { class: 'li-title' }, '重新导入热门穿搭'), h('span', { class: 'li-sub' }, '把 48 条种子数据重新写进本地')),
+        h('span', { class: 'li-main' }, h('span', { class: 'li-title' }, '重新导入热门穿搭'), h('span', { class: 'li-sub' }, '把全部热门穿搭（148 条）重新写进本地')),
         h('span', { class: 'li-arrow' }, '›')
       )
     );

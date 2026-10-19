@@ -63,7 +63,8 @@
 │   ├── app.js              启动、路由、共用流程
 │   └── views/              五个 Tab 页面 + 引导 + 自检
 ├── data/
-│   ├── hot_looks_seed.json 48 条热门穿搭（字段不许改）
+│   ├── hot_looks_seed.json 48 条热门穿搭（2025–2026，字段不许改）
+│   ├── hot_looks_extra.json 100 条（2020–2024 历年 50 + 经典 50）
 │   └── rules/              三个可编辑的规则文件
 ├── tools/static-server.js  Node 静态服务器（会打印手机可访问的局域网地址）
 ├── tools/serve-fallback.ps1  没有 node/python 时的纯 PowerShell 兜底服务器

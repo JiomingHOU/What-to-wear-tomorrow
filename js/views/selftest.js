@@ -206,15 +206,12 @@
     });
 
     tests.push({
-      name: '⑦ 热门穿搭 48 条，字段名与种子文件完全一致',
+      name: '⑦ 热门穿搭 148 条，字段名与种子文件完全一致',
       run: function () {
         return DB.hotLooks.list().then(function (list) {
           var want = DB.HOT_LOOK_FIELDS;
           var bad = [];
           list.forEach(function (row) {
-            var keys = Object.keys(row).filter(function (k) {
-              return want.indexOf(k) !== -1;
-            });
             var missing = want.filter(function (f) {
               return !(f in row);
             });
@@ -222,7 +219,6 @@
               return want.indexOf(k) === -1;
             });
             if (missing.length || extra.length) bad.push((row.look_id || '?') + ' 缺[' + missing.join(',') + '] 多[' + extra.join(',') + ']');
-            void keys;
           });
           var female = list.filter(function (r) {
             return r.gender === '女';
@@ -230,11 +226,16 @@
           var male = list.filter(function (r) {
             return r.gender === '男';
           }).length;
+          var seasons = {};
+          list.forEach(function (r) {
+            if (r.season) seasons[r.season] = (seasons[r.season] || 0) + 1;
+          });
           return {
-            pass: list.length === 48 && bad.length === 0,
+            pass: list.length === 148 && bad.length === 0 && female === 81 && male === 67,
             detail:
-              '实际条数：' + list.length + '（要求 48）\n' +
-              '女 ' + female + ' 条 / 男 ' + male + ' 条（要求 26 / 22）\n' +
+              '实际条数：' + list.length + '（要求 148 = 48 热门 + 50 历年 + 50 经典）\n' +
+              '女 ' + female + ' 条 / 男 ' + male + ' 条（要求 81 / 67）\n' +
+              '季节：' + Object.keys(seasons).sort().join('、') + '\n' +
               '字段要求：' + want.join('、') + '\n' +
               (bad.length ? '有问题的记录：' + bad.slice(0, 5).join('；') : '所有记录字段完全一致 ✓'),
           };

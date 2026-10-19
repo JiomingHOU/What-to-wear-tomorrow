@@ -65,7 +65,14 @@
     'source_url',
   ];
 
-  var SEED_URL = 'data/hot_looks_seed.json';
+  /* 热门穿搭数据源。以后再加数据，就往这个数组里加文件，并把 SEED_REV 加 1 */
+  var SEED_URLS = [
+    'data/hot_looks_seed.json', // 48 条：2025–2026
+    'data/hot_looks_extra.json', // 100 条：2020–2024 历年 50 条 + 经典 50 条
+  ];
+  /* 数据版本号：改了/加了热门穿搭数据就 +1。
+     老用户的手机靠它判断要不要补新数据，不加 1 的话他们看不到新数据。 */
+  var SEED_REV = 2;
 
   var DB = {
     DB_NAME: DB_NAME,
@@ -795,58 +802,135 @@
     });
   }
 
-  /* 读取种子文件（exactUrl 可覆盖，方便以后换文件） */
-  function fetchSeed(url) {
-    return fetch(url || SEED_URL, { cache: 'no-cache' }).then(function (res) {
-      if (!res.ok) throw new Error('热门穿搭种子文件读取失败：HTTP ' + res.status);
+  /* 读取一个种子文件 */
+  function fetchSeedFile(url) {
+    return fetch(url, { cache: 'no-cache' }).then(function (res) {
+      if (!res.ok) throw new Error('种子文件读取失败（' + url + '）：HTTP ' + res.status);
       return res.json();
     });
   }
 
-  /* 首次启动导入：hot_looks 为空时导入 48 条
-     返回 { imported, total, intended: 48, exact } */
+  /* 把一批原始记录校验成标准 11 字段，返回 { rows, problems } */
+  function normalizeLooks(data, url) {
+    if (!Array.isArray(data)) throw new Error('种子文件不是数组：' + url);
+    var problems = [];
+    var rows = [];
+    data.forEach(function (row) {
+      var miss = missingFields(row, HOT_LOOK_FIELDS);
+      if (miss.length) {
+        problems.push((row && row.look_id) + ' 缺字段 ' + miss.join('/'));
+        return;
+      }
+      var out = {};
+      HOT_LOOK_FIELDS.forEach(function (f) {
+        out[f] = row[f];
+      });
+      rows.push(out);
+    });
+    return { rows: rows, problems: problems };
+  }
+
+  /* ---------------------------------------------------------------------
+     热门穿搭入库
+     数据源：data/hot_looks_seed.json（48 条，2025–2026）
+             data/hot_looks_extra.json（100 条，2020–2024 历年 + 50 条经典）
+     行为：
+       - 新手机：全部导入
+       - 老手机（已经有 48 条）：只补新数据，不会重复、不会覆盖用户改动
+       - 用 meta.seed_rev 记住导到第几版，避免每次打开都重新拉
+     返回 { imported(新增条数), added, total, rev, problems }
+     --------------------------------------------------------------------- */
   DB.ensureSeed = function (opts) {
     var force = !!(opts && opts.force);
-    return DB.hotLooks.list().then(function (existing) {
-      if (existing.length && !force) {
+
+    return Promise.all([DB.hotLooks.list(), DB.meta.get('seed_rev', 0)]).then(function (res) {
+      var existing = res[0];
+      var rev = Number(res[1]) || 0;
+
+      /* 已是最新版本，直接跳过 */
+      if (!force && existing.length && rev >= SEED_REV) {
         DB.seedCount = existing.length;
-        return { imported: 0, total: existing.length, missing: [] };
+        return { imported: 0, added: 0, total: existing.length, rev: rev, problems: [] };
       }
-      return fetchSeed()
-        .then(function (data) {
-          if (!Array.isArray(data)) throw new Error('种子文件格式不对，应该是一个数组');
-          var problems = [];
-          var rows = data.map(function (row) {
-            var miss = missingFields(row, HOT_LOOK_FIELDS);
-            if (miss.length) problems.push((row && row.look_id) + ' 缺字段 ' + miss.join('/'));
-            var out = {};
-            HOT_LOOK_FIELDS.forEach(function (f) {
-              out[f] = row[f];
+
+      var known = {};
+      existing.forEach(function (r) {
+        known[r.look_id] = true;
+      });
+
+      /* 逐个文件拉，任何一个失败都不升版本号，下次打开还会重试 */
+      return Promise.all(
+        SEED_URLS.map(function (url) {
+          return fetchSeedFile(url)
+            .then(function (data) {
+              return { url: url, ok: true, data: data };
+            })
+            .catch(function (err) {
+              return { url: url, ok: false, error: err.message };
             });
-            return out;
-          });
-          if (problems.length) {
-            throw new Error('热门穿搭字段和约定不一致：' + problems.slice(0, 3).join('；'));
+        })
+      ).then(function (parts) {
+        var allRows = [];
+        var problems = [];
+        var failed = [];
+
+        parts.forEach(function (p) {
+          if (!p.ok) {
+            failed.push(p.error);
+            return;
           }
-          var prep = force ? DB.clear('hot_looks') : Promise.resolve();
-          return prep
-            .then(function () {
-              return DB.putMany('hot_looks', rows);
-            })
-            .then(function () {
-              DB.seedCount = rows.length;
-              return DB.meta.set('seed_imported_at', new Date().toISOString());
-            })
-            .then(function () {
-              return {
-                imported: rows.length,
-                total: rows.length,
-                missing: [],
-                intended: 48,
-                exact: rows.length === 48,
-              };
-            });
+          try {
+            var n = normalizeLooks(p.data, p.url);
+            allRows = allRows.concat(n.rows);
+            problems = problems.concat(n.problems);
+          } catch (e) {
+            failed.push(e.message);
+          }
         });
+
+        /* 一条都没拉到：不写版本号，保留原来的数据，界面用旧数据 */
+        if (!allRows.length) {
+          DB.seedCount = existing.length;
+          return {
+            imported: 0,
+            added: 0,
+            total: existing.length,
+            rev: rev,
+            problems: problems.concat(failed),
+            failed: true,
+          };
+        }
+
+        var added = allRows.filter(function (r) {
+          return !known[r.look_id];
+        }).length;
+
+        var prep = force ? DB.clear('hot_looks') : Promise.resolve();
+
+        return prep
+          .then(function () {
+            return DB.putMany('hot_looks', allRows);
+          })
+          .then(function () {
+            /* 所有文件都成功才升版本号，否则下次继续补 */
+            if (failed.length) return null;
+            return DB.meta.set('seed_rev', SEED_REV);
+          })
+          .then(function () {
+            return DB.meta.set('seed_imported_at', new Date().toISOString());
+          })
+          .then(function () {
+            DB.seedCount = allRows.length;
+            return {
+              imported: force ? allRows.length : added,
+              added: added,
+              total: allRows.length,
+              rev: failed.length ? rev : SEED_REV,
+              problems: problems.concat(failed),
+              failed: failed.length > 0,
+            };
+          });
+      });
     });
   };
 
